@@ -15,7 +15,7 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 90px;
-    background-color: red;
+    background-color: rgb(100, 100, 100);
 }
 
 header div{
@@ -31,10 +31,15 @@ header nav ul li{
     list-style: none;
 }
 
-header nav ul li a {
+header nav ul li a{
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
     margin: 0 20px;
+}
+
+header nav ul li a:hover{
+    color: #78CEC8;
 }
 
 header button{
