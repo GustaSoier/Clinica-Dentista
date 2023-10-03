@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 90px;
+    height: 7vh;
     background-color: rgb(100, 100, 100);
 }
 
@@ -43,9 +43,60 @@ header nav ul li a:hover{
 }
 
 header button{
-    background-color: blue;
+    background-color: #78CEC8;
     border: 0;
-    border-radius: 15px;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 15px 45px;
+    font-size: 19px;
+    color: white;
+}
+
+.menu-fixo{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.9);
+    animation: fadeIn 2s ease-in-out;
+    margin: 0 auto;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu-fixo a{
+    color: black;
 }
 /* #endregion header */
+
+/* #region banner */
+.banner{
+    background: url(../img/fundoTopo.png) fixed center no-repeat;
+    height: 93vh;
+    filter: brightness(65%);
+    display: flex;
+}
+
+.banner div{ 
+    margin: auto;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.banner div h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: aqua;
+}
+
+.banner div a{
+    text-decoration: none;
+    color: white;
+    background-color: #78CEC8;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+
+/* #endregion banner */
