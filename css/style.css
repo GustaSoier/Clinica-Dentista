@@ -14,8 +14,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 7vh;
-    background-color: rgb(100, 100, 100);
+    height: 10vh;
+    background-color: grey;
 }
 
 header div{
@@ -70,8 +70,8 @@ header button{
 
 /* #region banner */
 .banner{
-    background: url(../img/fundoTopo.png) fixed center no-repeat;
-    height: 93vh;
+    background: url(../img/fundoTopo.webp) fixed center no-repeat;
+    height: 90vh;
     filter: brightness(65%);
     display: flex;
 }
@@ -97,6 +97,109 @@ header button{
     border-radius: 10px;
     padding: 10px 15px;
 }
-
-
 /* #endregion banner */
+
+/* #region sobre */
+.sobre div{
+    display: flex;
+    padding: 4em;
+}
+
+.sobre div div{
+    flex-direction: column;
+}
+
+.sobre div div h2{
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.sobre div div h2 span{
+    color: #78CEC8;
+}
+
+.sobre div div a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    background-color: aqua;
+    align-self: flex-start;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+/* #endregion sobre */
+
+/* #region serviços */
+
+/* #endregion serviços */
+
+/* #region planos */
+.planos{
+    padding: 4em;
+}
+
+.planos h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 5rem;
+}
+
+.planos h2 span{
+    color: #78CEC8;
+}
+
+.planos div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.planos div div{
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.planos div div:nth-child(1){
+    background-color: #C9FCFF;
+}
+
+.planos div div:nth-child(2){
+    background-color: #4FF4FF;
+}
+
+.planos div div:nth-child(3){
+    background-color: #28CED9;
+}
+
+.planos div div h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.planos div div ul{
+    margin: 0;
+}
+
+.planos div div ul li{
+    margin: 15px 0;
+}
+
+.planos div div span{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.planos div div a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: white;
+    align-self: center;
+}
+/* #endregion planos */
