@@ -6,22 +6,33 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background: url(../img/logoFundo.svg) fixed center no-repeat;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #00ff37;
 }
 /* #endregion global */
 
 /* #region header */
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    height: 10vh;
-    background-color: grey;
+    background-color: rgb(207, 207, 207);
 }
 
-header div{
-    display: flex;
-    margin-top: 20px;
+header img{
+    width: 250px;
+    height: 80px;
 }
+
 
 header nav ul{
     display: flex;
@@ -56,10 +67,8 @@ header button{
     width: 100%;
     top: 0;
     z-index: 9999;
-    background-color: rgba(255, 255, 255, 0.9);
-    animation: fadeIn 2s ease-in-out;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
-    justify-content: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -71,7 +80,7 @@ header button{
 /* #region banner */
 .banner{
     background: url(../img/fundoTopo.webp) fixed center no-repeat;
-    height: 90vh;
+    height: 100vh;
     filter: brightness(65%);
     display: flex;
 }
@@ -132,6 +141,54 @@ header button{
 
 /* #region serviços */
 
+.servicos h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.servicos h2 span{
+    color: #78CEC8;
+}
+
+.servicos div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servicos div div{
+    flex-direction: column;
+}
+
+.servicos div div span{
+    text-align: center;
+    background-color: #ff8a00;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.servicos div div .link-agendar{
+    background-color: #78CEC8;
+}
+
+.servicos div div .link-agendar a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.servicos div div .link-saibaMais a{
+    background-color: #00ffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    align-self: flex-end;
+}
 /* #endregion serviços */
 
 /* #region planos */
@@ -203,3 +260,56 @@ header button{
     align-self: center;
 }
 /* #endregion planos */
+
+/* #region dentistas */
+.dentistas{
+    padding: 7em 4em;
+}
+
+.dentistas div{
+    display: flex;
+    justify-content: center;
+}
+
+.dentistas div h2{
+    font-size: 40px;
+}
+
+.dentistas div h2 span{
+    color: #78CEC8;
+}
+
+.dentistas div div{
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.dentistas .div-dentistas{
+    background-color: #C5FFF8;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+.dentistas .div-dentistas a{
+    align-self: center;
+}
+
+.dentistas div div img{
+    height: 200px;
+    width: 150px; 
+}
+
+.dentistas div div a{
+    text-decoration: none;
+    background-color: #82F6EE;
+    padding: 15px 25px;
+    border-radius: 10px;
+    align-self: flex-start;
+    color: black;
+    margin-top: 40px;
+}
+/* #endregion dentistas */
