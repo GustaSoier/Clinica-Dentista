@@ -18,6 +18,18 @@ body{
     border-radius: 50%;
     background-color: #00ff37;
 }
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 15px;
+    border-radius: 5px;
+    background-color: #34b6bf;
+}
+
 /* #endregion global */
 
 /* #region header */
@@ -106,6 +118,46 @@ header button{
     border-radius: 10px;
     padding: 10px 15px;
 }
+.banner span{
+    position: relative;
+    font-size: 100px;
+    background-color: red;
+}
+
+.banner span a i{
+    color: white;
+}
+
+.banner span i{
+    position: fixed;
+    left:  48%;
+    bottom: 30px;
+    /* animation: flutuar 2s ease-in-out infinite alternate; */
+} */ */
+
+.arrow-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow-down a {
+    text-decoration: none;
+    color: #000; 
+    transition: color 2.s ease-in-out;
+}
+
+/* 
+@keyframes flutuar{
+    100%{
+        bottom: 60px;
+    }
+
+    0%{
+        botom: 30px;
+    }
+} */
 /* #endregion banner */
 
 /* #region sobre */
@@ -140,7 +192,6 @@ header button{
 /* #endregion sobre */
 
 /* #region serviços */
-
 .servicos h2{
     text-align: center;
     font-size: 40px;
@@ -176,7 +227,10 @@ header button{
     color: white;
     text-decoration: none;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .servicos div div .link-saibaMais a{
