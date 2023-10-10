@@ -18,7 +18,7 @@ function linkWhats(){
   window.open('https://api.whatsapp.com/send?phone=' + numFone)
 }
 
-    document.querySelector('.arrow-down a').addEventListener('click', function (e) {
+    document.querySelector('.seta-abaixo a').addEventListener('click', function (e) {
         e.preventDefault(); // Impede o comportamento padrão do link
 
         const targetSection = document.querySelector('#sobre');

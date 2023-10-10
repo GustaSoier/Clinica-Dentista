@@ -30,6 +30,10 @@ body{
     background-color: #34b6bf;
 }
 
+.site{
+    max-width: 1400px;
+    margin: 0 auto;
+}
 /* #endregion global */
 
 /* #region header */
@@ -93,8 +97,8 @@ header button{
 .banner{
     background: url(../img/fundoTopo.webp) fixed center no-repeat;
     height: 100vh;
-    filter: brightness(65%);
     display: flex;
+    position: relative;
 }
 
 .banner div{ 
@@ -119,7 +123,6 @@ header button{
     padding: 10px 15px;
 }
 .banner span{
-    position: relative;
     font-size: 100px;
     background-color: red;
 }
@@ -129,41 +132,31 @@ header button{
 }
 
 .banner span i{
-    position: fixed;
+    position: absolute;
     left:  48%;
     bottom: 30px;
-    /* animation: flutuar 2s ease-in-out infinite alternate; */
-} */ */
-
-.arrow-down {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    animation: flutuar 1s ease-in-out infinite alternate;
 }
 
-.arrow-down a {
-    text-decoration: none;
-    color: #000; 
-    transition: color 2.s ease-in-out;
-}
 
-/* 
 @keyframes flutuar{
     100%{
         bottom: 60px;
     }
 
     0%{
-        botom: 30px;
+        botom: 10px;
     }
-} */
+}
 /* #endregion banner */
 
 /* #region sobre */
+
+.sobre{
+    margin-top: 50px;
+}
 .sobre div{
     display: flex;
-    padding: 4em;
 }
 
 .sobre div div{
