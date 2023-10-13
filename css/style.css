@@ -6,7 +6,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: url(../img/logoFundo.svg) fixed center no-repeat;
+    /* background: url(../img/logoFundo.svg) fixed center no-repeat; */
 }
 
 .whatsapp{
@@ -76,6 +76,11 @@ header button{
     padding: 15px 45px;
     font-size: 19px;
     color: white;
+}
+
+header button:hover{
+    background-color: #68b6b1;
+    transition: .3s;
 }
 
 .menu-fixo{
@@ -152,11 +157,9 @@ header button{
 
 /* #region sobre */
 
-.sobre{
-    margin-top: 50px;
-}
 .sobre div{
     display: flex;
+    padding: 4em;
 }
 
 .sobre div div{
