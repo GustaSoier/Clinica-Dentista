@@ -41,14 +41,16 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(207, 207, 207);
 }
 
 header img{
-    width: 250px;
-    height: 80px;
+    width: 280px;
+    height: 90px;
 }
 
+header .menu-abrir, .menu-fechar{
+    display: none;
+}
 
 header nav ul{
     display: flex;
@@ -63,13 +65,14 @@ header nav ul li a{
     color: white;
     text-transform: uppercase;
     margin: 0 20px;
+    font-size: 19px;
 }
 
 header nav ul li a:hover{
     color: #78CEC8;
 }
 
-header button{
+header .login{
     background-color: #78CEC8;
     border: 0;
     border-radius: 10px;
@@ -78,7 +81,7 @@ header button{
     color: white;
 }
 
-header button:hover{
+header .login:hover{
     background-color: #68b6b1;
     transition: .3s;
 }
@@ -127,6 +130,12 @@ header button:hover{
     border-radius: 10px;
     padding: 10px 15px;
 }
+
+.banner div a:hover{
+    background-color: #68b6b1;
+    transition: .3s;
+}
+
 .banner span{
     font-size: 100px;
     background-color: red;
@@ -140,17 +149,17 @@ header button:hover{
     position: absolute;
     left:  48%;
     bottom: 30px;
-    animation: flutuar 1s ease-in-out infinite alternate;
+    animation: flutuar 1.5s ease-in-out infinite alternate;
 }
 
 
 @keyframes flutuar{
     100%{
-        bottom: 60px;
+        bottom: 30px;
     }
 
     0%{
-        botom: 10px;
+        bottom: 10px;
     }
 }
 /* #endregion banner */
@@ -176,14 +185,20 @@ header button:hover{
     color: #78CEC8;
 }
 
+.sobre div div p{
+    font-size: 18px;
+}
+
 .sobre div div a{
-    text-decoration: none;
-    color: black;
-    padding: 10px 15px;
-    background-color: aqua;
-    align-self: flex-start;
+    background-color: #00ffff;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    align-self: flex-start;
+    font-size: 19px;
 }
 /* #endregion sobre */
 
@@ -212,10 +227,14 @@ header button:hover{
     padding: 10px;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .servicos div div .link-agendar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
     background-color: #78CEC8;
 }
 
@@ -227,6 +246,7 @@ header button:hover{
     margin-left: 10px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 19px;
 }
 
 .servicos div div .link-saibaMais a{
@@ -238,7 +258,13 @@ header button:hover{
     text-decoration: none;
     padding: 15px;
     align-self: flex-end;
+    font-size: 19px;
 }
+
+.servicos div div .link-agendar i{
+    font-size: 24px;
+}
+
 /* #endregion serviços */
 
 /* #region planos */
@@ -363,3 +389,61 @@ header button:hover{
     margin-top: 40px;
 }
 /* #endregion dentistas */
+
+/* #region localização */
+
+/* #endregion localização */
+
+/* #region rodapé */
+
+.rodape{
+    background-color: #ff8a00;
+    height: 100px;
+    width: 100%;
+}
+
+/* #endregion rodapé */
+
+/* #region responsive */
+@media (max-width: 500px){
+    header nav{
+        background-color: rgba(0, 0, 0, 0.95);
+        height: 100%;
+        position: fixed;
+        margin: 0;
+        top: 0;
+        right: -350px;
+        max-width: 350px;
+        width: 50%;
+        z-index: 9;    
+        transition: right .6s ease-out;                     
+    }
+
+    header nav ul{
+        flex-direction: column;
+    }
+    
+    header nav ul li{
+        margin: 5% 0;
+    }
+
+    header .menu-abrir{
+        background: url(../img/menu-abrir.png);
+        background-size: cover;
+        display: block;
+        padding: 20px;
+        border: 0;
+        margin-left: 20%;
+    }
+    
+    header .menu-fechar{
+        background: url(../img/menu-fechar.png);
+        background-size: cover;
+        display: block;
+        padding: 20px;
+        border: 0;
+    }
+}
+
+
+/* #endregion responsive */

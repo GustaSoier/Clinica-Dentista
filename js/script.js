@@ -13,6 +13,15 @@
 //     }
 // }
 
+// aqui é para dar uma função ao clicar no menu mobile
+document.querySelector(".menu-abrir").onclick = function () {
+    document.documentElement.classList.add("menu-ativo");
+  }
+  
+  document.querySelector(".menu-fechar").onclick = function () {
+    document.documentElement.classList.remove("menu-ativo")
+  }
+
 function linkWhats(){
   var numFone = '5511951694143'
   window.open('https://api.whatsapp.com/send?phone=' + numFone)
