@@ -22,10 +22,14 @@ document.querySelector(".menu-abrir").onclick = function () {
     document.documentElement.classList.remove("menu-ativo")
   }
 
+  
+// criando a função para enviar no whatsapp
 function linkWhats(){
   var numFone = '5511951694143'
   window.open('https://api.whatsapp.com/send?phone=' + numFone)
 }
+
+
 
     document.querySelector('.seta-abaixo a').addEventListener('click', function (e) {
         e.preventDefault(); // Impede o comportamento padrão do link

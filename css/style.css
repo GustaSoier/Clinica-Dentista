@@ -104,6 +104,7 @@ header .login:hover{
 /* #region banner */
 .banner{
     background: url(../img/fundoTopo.webp) fixed center no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     position: relative;
@@ -165,7 +166,6 @@ header .login:hover{
 /* #endregion banner */
 
 /* #region sobre */
-
 .sobre div{
     display: flex;
     padding: 4em;
@@ -289,8 +289,8 @@ header .login:hover{
 }
 
 .planos div div{
+    position: relative;
     flex-direction: column;
-    text-align: center;
     width: 350px;
     height: 500px;
     border-radius: 15px;
@@ -310,12 +310,14 @@ header .login:hover{
 
 .planos div div h3{
     font-size: 30px;
+    text-align: center;
     font-weight: bolder;
     margin: 0;
 }
 
 .planos div div ul{
     margin: 0;
+    list-style: none;
 }
 
 .planos div div ul li{
@@ -325,6 +327,7 @@ header .login:hover{
 .planos div div span{
     font-weight: bold;
     font-size: 25px;
+    text-align: center;
 }
 
 .planos div div a{
@@ -335,6 +338,23 @@ header .login:hover{
     background-color: white;
     align-self: center;
 }
+
+.planos div div .coroa{
+    position: absolute;
+    font-size: 60px;
+    top: -50px;
+    right: -35px;
+    rotate: 30deg;
+    /* color: rgb(211, 211, 72); */
+    color: #ff8a00;
+}
+
+.planos div div .certo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ff37;
+}
+
 /* #endregion planos */
 
 /* #region dentistas */
@@ -391,18 +411,54 @@ header .login:hover{
 /* #endregion dentistas */
 
 /* #region localização */
+.localizacao h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.localizacao h2 span{
+    color: #78CEC8;
+}
+
+.localizacao div{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.localizacao div div{
+    flex-direction: column;
+}
+
+.localizacao h3 i{
+    color:#36a3a8;
+}
+
 
 /* #endregion localização */
 
 /* #region rodapé */
-
 .rodape{
     background-color: #ff8a00;
-    height: 100px;
     width: 100%;
+    height: 200px;
 }
-
 /* #endregion rodapé */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* #region responsive */
 @media (max-width: 500px){
