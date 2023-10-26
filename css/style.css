@@ -1,0 +1,499 @@
+/* #region global */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background: url(../img/logoFundo.svg) fixed center no-repeat; */
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #00ff37;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 15px;
+    border-radius: 5px;
+    background-color: #34b6bf;
+}
+
+.site{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* #endregion global */
+
+/* #region header */
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header img{
+    width: 280px;
+    height: 90px;
+}
+
+header .menu-abrir, .menu-fechar{
+    display: none;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-size: 19px;
+}
+
+header nav ul li a:hover{
+    color: #78CEC8;
+}
+
+header .login{
+    background-color: #78CEC8;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px 45px;
+    font-size: 19px;
+    color: white;
+}
+
+header .login:hover{
+    background-color: #68b6b1;
+    transition: .3s;
+}
+
+.menu-fixo{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu-fixo a{
+    color: black;
+}
+/* #endregion header */
+
+/* #region banner */
+.banner{
+    background: url(../img/fundoTopo.webp) fixed center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.banner div{ 
+    margin: auto;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.banner div h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: aqua;
+}
+
+.banner div a{
+    text-decoration: none;
+    color: white;
+    background-color: #78CEC8;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.banner div a:hover{
+    background-color: #68b6b1;
+    transition: .3s;
+}
+
+.banner span{
+    font-size: 100px;
+    background-color: red;
+}
+
+.banner span a i{
+    color: white;
+}
+
+.banner span i{
+    position: absolute;
+    left:  48%;
+    bottom: 30px;
+    animation: flutuar 1.5s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutuar{
+    100%{
+        bottom: 30px;
+    }
+
+    0%{
+        bottom: 10px;
+    }
+}
+/* #endregion banner */
+
+/* #region sobre */
+.sobre div{
+    display: flex;
+    padding: 4em;
+}
+
+.sobre div div{
+    flex-direction: column;
+}
+
+.sobre div div h2{
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.sobre div div h2 span{
+    color: #78CEC8;
+}
+
+.sobre div div p{
+    font-size: 18px;
+}
+
+.sobre div div a{
+    background-color: #00ffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    align-self: flex-start;
+    font-size: 19px;
+}
+/* #endregion sobre */
+
+/* #region serviços */
+.servicos h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.servicos h2 span{
+    color: #78CEC8;
+}
+
+.servicos div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servicos div div{
+    flex-direction: column;
+}
+
+.servicos div div span{
+    text-align: center;
+    background-color: #ff8a00;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.servicos div div .link-agendar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #78CEC8;
+}
+
+.servicos div div .link-agendar a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.servicos div div .link-saibaMais a{
+    background-color: #00ffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    align-self: flex-end;
+    font-size: 19px;
+}
+
+.servicos div div .link-agendar i{
+    font-size: 24px;
+}
+
+/* #endregion serviços */
+
+/* #region planos */
+.planos{
+    padding: 4em;
+}
+
+.planos h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 5rem;
+}
+
+.planos h2 span{
+    color: #78CEC8;
+}
+
+.planos div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.planos div div{
+    position: relative;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.planos div div:nth-child(1){
+    background-color: #C9FCFF;
+}
+
+.planos div div:nth-child(2){
+    background-color: #4FF4FF;
+}
+
+.planos div div:nth-child(3){
+    background-color: #28CED9;
+}
+
+.planos div div h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.planos div div ul{
+    margin: 0;
+    list-style: none;
+}
+
+.planos div div ul li{
+    margin: 15px 0;
+}
+
+.planos div div span{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.planos div div a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: white;
+    align-self: center;
+}
+
+.planos div div .coroa{
+    position: absolute;
+    font-size: 60px;
+    top: -50px;
+    right: -35px;
+    rotate: 30deg;
+    /* color: rgb(211, 211, 72); */
+    color: #ff8a00;
+}
+
+.planos div div .certo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ff37;
+}
+
+/* #endregion planos */
+
+/* #region dentistas */
+.dentistas{
+    padding: 7em 4em;
+}
+
+.dentistas div{
+    display: flex;
+    justify-content: center;
+}
+
+.dentistas div h2{
+    font-size: 40px;
+}
+
+.dentistas div h2 span{
+    color: #78CEC8;
+}
+
+.dentistas div div{
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.dentistas .div-dentistas{
+    background-color: #C5FFF8;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+.dentistas .div-dentistas a{
+    align-self: center;
+}
+
+.dentistas div div img{
+    height: 200px;
+    width: 150px; 
+}
+
+.dentistas div div a{
+    text-decoration: none;
+    background-color: #82F6EE;
+    padding: 15px 25px;
+    border-radius: 10px;
+    align-self: flex-start;
+    color: black;
+    margin-top: 40px;
+}
+/* #endregion dentistas */
+
+/* #region localização */
+.localizacao h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.localizacao h2 span{
+    color: #78CEC8;
+}
+
+.localizacao div{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.localizacao div div{
+    flex-direction: column;
+}
+
+.localizacao h3 i{
+    color:#36a3a8;
+}
+
+
+/* #endregion localização */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #region responsive */
+@media (max-width: 500px){
+    header nav{
+        background-color: rgba(0, 0, 0, 0.95);
+        height: 100%;
+        position: fixed;
+        margin: 0;
+        top: 0;
+        right: -350px;
+        max-width: 350px;
+        width: 50%;
+        z-index: 9;    
+        transition: right .6s ease-out;                     
+    }
+
+    header nav ul{
+        flex-direction: column;
+    }
+    
+    header nav ul li{
+        margin: 5% 0;
+    }
+
+    header .menu-abrir{
+        background: url(../img/menu-abrir.png);
+        background-size: cover;
+        display: block;
+        padding: 20px;
+        border: 0;
+        margin-left: 20%;
+    }
+    
+    header .menu-fechar{
+        background: url(../img/menu-fechar.png);
+        background-size: cover;
+        display: block;
+        padding: 20px;
+        border: 0;
+    }
+}
+
+
+/* #endregion responsive */
