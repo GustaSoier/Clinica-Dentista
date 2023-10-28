@@ -66,10 +66,13 @@ header nav ul li a{
     text-transform: uppercase;
     margin: 0 20px;
     font-size: 19px;
+    transition: all .2s ease-in-out;
+    border-bottom: 3px solid transparent;
 }
 
 header nav ul li a:hover{
     color: #78CEC8;
+    border-bottom: solid 3px #6ee7ff;
 }
 
 header .login{
