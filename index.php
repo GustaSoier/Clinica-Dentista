@@ -23,7 +23,6 @@
         <?php require_once('conteudo/planos-conteudo.php') ?>
         <?php require_once('conteudo/dentistas-conteudo.php') ?>
         <?php require_once('conteudo/localizacao.php') ?>
-        <?php require_once('conteudo/dentistas.php') ?>
     </main>
 
 </body>
