@@ -125,7 +125,7 @@ header nav.menu-desktop li{
 
 .banner span i{
     position: absolute;
-    left:  48%;
+    left:  47%;
     bottom: 30px;
     animation: flutuar 1.5s ease-in-out infinite alternate;
 }
@@ -144,7 +144,21 @@ header nav.menu-desktop li{
 /* #endregion banner */
 
 /* #region sobre */
+
 .sobre div{
+    display: flex;
+}
+
+.sobre div div{
+    flex-direction: column;
+}
+
+.sobre div div h2{
+    font-size: 28px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+/* .sobre div{
     margin-top: 3rem;
     display: flex;
 }
@@ -183,7 +197,7 @@ header nav.menu-desktop li{
     padding: 15px;
     align-self: flex-start;
     font-size: 16px;
-}
+} */
 /* #endregion sobre */
 
 

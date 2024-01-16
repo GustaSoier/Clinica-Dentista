@@ -4,6 +4,7 @@ use App\Http\Controllers\ContatoController;
 use App\Http\Controllers\DentistasController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ServicosController;
+use App\Models\Contato;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,3 +26,4 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/servicos', [ServicosController::class, 'index'])->name('servicos');
 Route::get('/dentistas', [DentistasController::class, 'index'])->name('dentistas');
 Route::get('/contato', [ContatoController::class, 'index'])->name('contato');
+Route::post('/contato/enviar', [ContatoController::class, 'salvarNoBanco'])->name('contato.enviar');
