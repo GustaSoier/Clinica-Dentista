@@ -60,8 +60,8 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	        	<li class="nav-item active"><a href="{{ url ('/') }}" class="nav-link pl-0">Home</a></li>
+	        	<li class="nav-item"><a href="{{ url ('/sobre') }}" class="nav-link">Sobre</a></li>
 	        	<li class="nav-item"><a href="doctor.html" class="nav-link">Doctor</a></li>
 	        	<li class="nav-item"><a href="department.html" class="nav-link">Treatments</a></li>
 	        	<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
@@ -183,10 +183,10 @@
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="{{ asset ('js/jquery.min.js') }}"></script>
+  <script src="{{ asset (('js/jquery-migrate-3.0.1.min.js')) }}"></script>
+  <script src="{{ asset ('js/popper.min.js') }}"></script>
+  <script src="{{ asset ('js/bootstrap.min.js') }}"></script>
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/jquery.stellar.min.js"></script>
