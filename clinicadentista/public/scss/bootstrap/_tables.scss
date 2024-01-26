@@ -4,6 +4,7 @@
 
 .table {
   width: 100%;
+  max-width: 100%;
   margin-bottom: $spacer;
   background-color: $table-bg; // Reset for nesting within parents with `background-color`.
 
@@ -41,9 +42,9 @@
 }
 
 
-// Border versions
+// Bordered version
 //
-// Add or remove borders all around the table and between all the columns.
+// Add borders all around the table and between all the columns.
 
 .table-bordered {
   border: $table-border-width solid $table-border-color;
@@ -56,26 +57,18 @@
   thead {
     th,
     td {
-      border-bottom-width: 2 * $table-border-width;
+      border-bottom-width: (2 * $table-border-width);
     }
   }
 }
 
-.table-borderless {
-  th,
-  td,
-  thead th,
-  tbody + tbody {
-    border: 0;
-  }
-}
 
 // Zebra-striping
 //
 // Default zebra-stripe styles (alternating gray and transparent backgrounds)
 
 .table-striped {
-  tbody tr:nth-of-type(#{$table-striped-order}) {
+  tbody tr:nth-of-type(odd) {
     background-color: $table-accent-bg;
   }
 }
@@ -100,7 +93,7 @@
 // inheritance to nested tables.
 
 @each $color, $value in $theme-colors {
-  @include table-row-variant($color, theme-color-level($color, $table-bg-level), theme-color-level($color, $table-border-level));
+  @include table-row-variant($color, theme-color-level($color, -9));
 }
 
 @include table-row-variant(active, $table-active-bg);
