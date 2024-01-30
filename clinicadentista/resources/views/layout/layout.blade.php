@@ -40,7 +40,7 @@
                       <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
                     </div>
                     <div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
-                      <a class="btns" href="tel:+953 012 3654 896">+953 012 3654 896</a>
+                      <a class="btns" href="tel:11 951694143">11 951694143</a>
                         <a class="btns" href="mailto:support@colorlib.com">support@colorlib.com</a>
                         <a class="icons" href="tel:+953 012 3654 896">
                             <span class="lnr lnr-phone-handset"></span>
@@ -170,7 +170,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<script src="js/owl.carousel.min.js"></script>
 			<script src="js/jquery.nice-select.min.js"></script>
 			<script src="js/mail-script.js"></script>
-			<script src="js/main.js"></script>	
+			<script src="js/main.js"></script>
 
 
 </body>
