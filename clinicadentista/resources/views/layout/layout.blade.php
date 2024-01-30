@@ -41,11 +41,11 @@
                     </div>
                     <div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
                       <a class="btns" href="tel:11 951694143">11 951694143</a>
-                        <a class="btns" href="mailto:support@colorlib.com">support@colorlib.com</a>
-                        <a class="icons" href="tel:+953 012 3654 896">
+                        <a class="btns" href="mailto:dentalcare@gmail.com">dentalcare@gmail.com</a>
+                        <a class="icons" href="tel:11 951694143">
                             <span class="lnr lnr-phone-handset"></span>
                         </a>
-                        <a class="icons" href="mailto:support@colorlib.com">
+                        <a class="icons" href="mailto:dentalcare@gmail.com">
                             <span class="lnr lnr-envelope"></span>
                         </a>
                     </div>
@@ -87,7 +87,7 @@
       </div>
     </header><!-- #header -->
 
-    <main class="container">
+    <main>
         @yield('conteudo')
     </main>
 
