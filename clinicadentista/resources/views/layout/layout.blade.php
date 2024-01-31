@@ -57,9 +57,9 @@
             <nav id="nav-menu-container">
               <ul class="nav-menu">
                 <li class="menu-active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="opening-hour.html">Opening Hour </a></li>
+                <li><a href="{{ url('/sobre') }}">Sobre</a></li>
+                <li><a href="{{ url('/servicos') }}">Serviços</a></li>
+                <li><a href="{{ url('/horarioAtendimento') }}">Horário de Atendimento </a></li>
                 <li class="menu-has-children"><a href="">Blog</a>
                   <ul>
                     <li><a href="blog-home.html">Blog Home</a></li>
@@ -72,9 +72,9 @@
                     </li>
                   </ul>
                 </li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="elements.html">Elements</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="{{ url('/precos') }}">Preços</a></li>
+                <li><a href="el{{ url('/elementos') }}">Elementos</a></li>
+                <li><a href="{{ ('/contato') }}">Contato</a></li>
               </ul>
             </nav><!-- #nav-menu-container -->
             <div class="menu-social-icons">
