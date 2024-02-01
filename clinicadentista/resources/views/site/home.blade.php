@@ -55,14 +55,14 @@
 
 
 
-    <!-- Start service Area -->
+    <!-- Início da Área de Serviços -->
     <section class="service-area section-gap">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-12 pb-40 header-text text-center">
-                    <h1 class="pb-10">What we Offer to our Customers</h1>
+                    <h1 class="pb-10">O que Oferecemos aos Nossos Clientes</h1>
                     <p>
-                        Who are in extremely love with eco friendly system.
+                        Para aqueles que estão extremamente apaixonados pelo sistema eco-friendly.
                     </p>
                 </div>
             </div>
@@ -71,11 +71,11 @@
                     <div class="single-service">
                         <img class="img-fluid" src="img/s1.jpg" alt="">
                         <a href="#">
-                            <h4>Popular Use Of The Internet</h4>
+                            <h4>Uso Popular da Internet</h4>
                         </a>
                         <p>
-                            inappropriate behavior is oftenlaug hed off as “boys will be boys,” women face higher conduct
-                            women face higher conduct.
+                            Comportamento inapropriado muitas vezes é ignorado como "coisas de meninos", as mulheres
+                            enfrentam um padrão de conduta mais elevado.
                         </p>
                     </div>
                 </div>
@@ -83,11 +83,11 @@
                     <div class="single-service">
                         <img class="img-fluid" src="img/s2.jpg" alt="">
                         <a href="#">
-                            <h4>Protective Preventative</h4>
+                            <h4>Preventivo Protetor</h4>
                         </a>
                         <p>
-                            inappropriate behavior is oftenlaug hed off as “boys will be boys,” women face higher conduct
-                            women face higher conduct.
+                            Comportamento inapropriado muitas vezes é ignorado como "coisas de meninos", as mulheres
+                            enfrentam um padrão de conduta mais elevado.
                         </p>
                     </div>
                 </div>
@@ -95,11 +95,11 @@
                     <div class="single-service">
                         <img class="img-fluid" src="img/s3.jpg" alt="">
                         <a href="#">
-                            <h4>Download Free Songs</h4>
+                            <h4>Baixar Músicas Gratuitas</h4>
                         </a>
                         <p>
-                            inappropriate behavior is oftenlaug hed off as “boys will be boys,” women face higher conduct
-                            women face higher conduct.
+                            Comportamento inapropriado muitas vezes é ignorado como "coisas de meninos", as mulheres
+                            enfrentam um padrão de conduta mais elevado.
                         </p>
                     </div>
                 </div>
@@ -107,18 +107,18 @@
                     <div class="single-service">
                         <img class="img-fluid" src="img/s4.jpg" alt="">
                         <a href="#">
-                            <h4>A Discount Toner Cartridge</h4>
+                            <h4>Cartucho de Toner com Desconto</h4>
                         </a>
                         <p>
-                            inappropriate behavior is oftenlaug hed off as “boys will be boys,” women face higher conduct
-                            women face higher conduct.
+                            Comportamento inapropriado muitas vezes é ignorado como "coisas de meninos", as mulheres
+                            enfrentam um padrão de conduta mais elevado.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End service Area -->
+    <!-- Fim da Área de Serviços -->
 
     <!-- Start home-about Area -->
     <section class="home-about-area section-gap relative">
