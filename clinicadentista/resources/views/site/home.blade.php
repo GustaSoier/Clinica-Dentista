@@ -126,31 +126,29 @@
             <div class="row align-items-center justify-content-end">
                 <div class="col-lg-6 no-padding home-about-right">
                     <h1 class="text-white">
-                        Who we are <br>
-                        to Serve the nation
+                        Quem somos <br>
+                        para Servir a nação
                     </h1>
                     <p>
-                        inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct
-                        standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the
-                        job is beyond reproach.
+                        Comportamento inapropriado muitas vezes é ignorado como "coisas de meninos", as mulheres enfrentam um padrão de conduta mais elevado, especialmente no local de trabalho. Por isso, é crucial que, como mulheres, nosso comportamento no trabalho esteja além de qualquer crítica.
                     </p>
                     <div class="row no-gutters">
                         <div class="single-services col">
                             <span class="lnr lnr-diamond"></span>
                             <a href="#">
-                                <h4 class="text-white">Expert Services</h4>
+                                <h4 class="text-white">Serviços Especializados</h4>
                             </a>
                             <p>
-                                Usage of the Internet is becoming more common due to rapid advancement of technology.
+                                O uso da Internet está se tornando mais comum devido ao rápido avanço da tecnologia.
                             </p>
                         </div>
                         <div class="single-services col">
                             <span class="lnr lnr-phone"></span>
                             <a href="#">
-                                <h4 class="text-white">Great Support</h4>
+                                <h4 class="text-white">Ótimo Suporte</h4>
                             </a>
                             <p>
-                                Usage of the Internet is becoming more common due to rapid advancement of technology.
+                                O uso da Internet está se tornando mais comum devido ao rápido avanço da tecnologia.
                             </p>
                         </div>
                     </div>
