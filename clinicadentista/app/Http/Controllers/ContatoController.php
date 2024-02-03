@@ -11,14 +11,14 @@ class ContatoController extends Controller
         return view('site.contato');
     }
 
-    public function salvarNoBanco(Request $request) {
-        $dados = $request ->json()->all();
+    // public function salvarNoBanco(Request $request) {
+    //     $dados = $request ->json()->all();
 
-        $validarDados = Validator::make($dados, [
-            'nomeContato' => 'required|max:100',
-            'emailContato' => 'required|email|max:100',
-            'foneContato' => 'required|max:15','assuntContato' => 'required|max:100',
-            'mensContato' => 'required',
-        ]) -> validate();
-    }
+    //     $validarDados = Validator::make($dados, [
+    //         'nomeContato' => 'required|max:100',
+    //         'emailContato' => 'required|email|max:100',
+    //         'foneContato' => 'required|max:15','assuntContato' => 'required|max:100',
+    //         'mensContato' => 'required',
+    //     ]) -> validate();
+    // }
 }

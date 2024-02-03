@@ -3,6 +3,7 @@
 use App\Http\Controllers\ContatoController;
 use App\Http\Controllers\DentistasController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\HorarioAtendimentoController;
 use App\Http\Controllers\ServicosController;
 use App\Http\Controllers\sobreController;
 use App\Models\Contato;
@@ -25,6 +26,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/sobre', [sobreController::class, 'index'])->name('sobre');
+Route::get('/servicos', [ServicosController::class, 'index'])->name('servicos');
+Route::get('/horarioAtendimento', [HorarioAtendimentoController::class, 'index'])->name('horarioAtendimento');
 
 
 Route::post('/contato/enviar', [ContatoController::class, 'salvarNoBanco'])->name('contato.enviar');

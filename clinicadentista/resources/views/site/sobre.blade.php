@@ -14,7 +14,7 @@
                         Sobre Nós
                     </h1>
                     <p class="text-white link-nav"><a href="{{ url('/') }}">Home </a> <span
-                            class="lnr lnr-arrow-right"></span> <a href="about.html"> Sobre Nós</a></p>
+                            class="lnr lnr-arrow-right"></span> <a href="{{ url ('/sobre') }}"> Sobre Nós</a></p>
                 </div>
             </div>
         </div>
