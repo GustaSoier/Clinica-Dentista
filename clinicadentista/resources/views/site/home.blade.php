@@ -495,7 +495,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="menu-content pb-70 col-lg-8">
                     <div class="title text-center">
-                        <h1 class="mb-10">Latest From Our Blog</h1>
+                        <h1 class="mb-10">Últimas do Nosso Blog</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.</p>
                     </div>
@@ -508,15 +508,15 @@
                     </div>
                     <p class="date">10 Jan 2018</p>
                     <a href="blog-single.html">
-                        <h4>Addiction When Gambling
-                            Becomes A Problem</h4>
+                        <h4>Vício: Quando o Jogo
+                            se Torna um Problema</h4>
                     </a>
                     <p>
-                        inappropriate behavior ipsum dolor sit amet, consectetur.
+                        Comportamento inapropriado ipsum dolor sit amet, consectetur.
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
-                        <p><span class="lnr lnr-heart"></span> 15 Likes</p>
-                        <p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+                        <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
+                        <p><span class="lnr lnr-bubble"></span> 02 Comentários</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 single-blog">
@@ -525,15 +525,15 @@
                     </div>
                     <p class="date">10 Jan 2018</p>
                     <a href="blog-single.html">
-                        <h4>Addiction When Gambling
-                            Becomes A Problem</h4>
+                        <h4>Vício: Quando o Jogo
+                            se Torna um Problema</h4>
                     </a>
                     <p>
-                        inappropriate behavior ipsum dolor sit amet, consectetur.
+                        Comportamento inapropriado ipsum dolor sit amet, consectetur.
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
-                        <p><span class="lnr lnr-heart"></span> 15 Likes</p>
-                        <p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+                        <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
+                        <p><span class="lnr lnr-bubble"></span> 02 Comentários</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 single-blog">
@@ -542,15 +542,15 @@
                     </div>
                     <p class="date">10 Jan 2018</p>
                     <a href="blog-single.html">
-                        <h4>Addiction When Gambling
-                            Becomes A Problem</h4>
+                        <h4>Vício: Quando o Jogo
+                            se Torna um Problema</h4>
                     </a>
                     <p>
-                        inappropriate behavior ipsum dolor sit amet, consectetur.
+                        Comportamento inapropriado ipsum dolor sit amet, consectetur.
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
-                        <p><span class="lnr lnr-heart"></span> 15 Likes</p>
-                        <p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+                        <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
+                        <p><span class="lnr lnr-bubble"></span> 02 Comentários</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 single-blog">
@@ -559,20 +559,24 @@
                     </div>
                     <p class="date">10 Jan 2018</p>
                     <a href="blog-single.html">
-                        <h4>Addiction When Gambling
-                            Becomes A Problem</h4>
+                        <h4>Vício: Quando o Jogo
+                            se Torna um Problema</h4>
                     </a>
                     <p>
-                        inappropriate behavior ipsum dolor sit amet, consectetur.
+                        Comportamento inapropriado ipsum dolor sit amet, consectetur.
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
-                        <p><span class="lnr lnr-heart"></span> 15 Likes</p>
-                        <p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+                        <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
+                        <p><span class="lnr lnr-bubble"></span> 02 Comentários</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
     <!-- End blog Area -->
 
 @endsection
