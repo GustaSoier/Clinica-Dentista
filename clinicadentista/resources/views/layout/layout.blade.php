@@ -37,7 +37,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
-                      <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+                      <a href="index.html"><img src="{{ asset ('img/logo-dentalcare.jpg') }}" alt="" title="" /></a>
                     </div>
                     <div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
                       <a class="btns" href="tel:11 951694143">11 951694143</a>

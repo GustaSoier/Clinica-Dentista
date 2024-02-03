@@ -188,7 +188,7 @@
                             Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
                             scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Gustavo Sampaio Soier</h4>
                         <p>
                             CEO do Google
                         </p>
@@ -199,7 +199,7 @@
                             Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
                             scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Gustavo Sampaio Soier</h4>
                         <p>
                             CEO do Google
                         </p>
@@ -210,7 +210,7 @@
                             Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
                             scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Gustavo Sampaio Soier</h4>
                         <p>
                             CEO do Google
                         </p>
@@ -221,7 +221,7 @@
                             Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
                             scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Gustavo Sampaio Soier</h4>
                         <p>
                             CEO do Google
                         </p>
@@ -232,7 +232,7 @@
                             Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
                             scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Gustavo Sampaio Soier</h4>
                         <p>
                             CEO do Google
                         </p>
@@ -243,7 +243,7 @@
                             Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
                             scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Gustavo Sampaio Soier</h4>
                         <p>
                             CEO do Google
                         </p>
@@ -254,7 +254,7 @@
                             Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
                             scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Gustavo Sampaio Soier</h4>
                         <p>
                             CEO do Google
                         </p>
@@ -265,7 +265,7 @@
                             Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
                             scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Gustavo Sampaio Soier</h4>
                         <p>
                             CEO do Google
                         </p>
@@ -277,12 +277,13 @@
     <!-- End testomial Area -->
 
     <!-- Start team Area -->
+
     <section class="team-area section-gap" id="team">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="menu-content pb-70 col-lg-8">
                     <div class="title text-center">
-                        <h1 class="mb-10">Our Consultants</h1>
+                        <h1 class="mb-10">Nossos Doutores</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua.</p>
                     </div>
@@ -294,9 +295,9 @@
                         <img class="img-fluid" src="img/t1.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                inappropriate behavior
+                                Comportamento inapropriado
                             </p>
-                            <h4>Andy Florence</h4>
+                            <h4>Gustavo Sampaio Soier</h4>
                         </div>
                     </div>
                 </div>
@@ -305,9 +306,9 @@
                         <img class="img-fluid" src="img/t2.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                inappropriate behavior
+                                Comportamento inapropriado
                             </p>
-                            <h4>Andy Florence</h4>
+                            <h4>Gustavo Sampaio Soier</h4>
                         </div>
                     </div>
                 </div>
@@ -316,9 +317,9 @@
                         <img class="img-fluid" src="img/t3.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                inappropriate behavior
+                                Comportamento inapropriado
                             </p>
-                            <h4>Andy Florence</h4>
+                            <h4>Gustavo Sampaio Soier</h4>
                         </div>
                     </div>
                 </div>
@@ -327,9 +328,9 @@
                         <img class="img-fluid" src="img/t4.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                inappropriate behavior
+                                Comportamento inapropriado
                             </p>
-                            <h4>Andy Florence</h4>
+                            <h4>Gustavo Sampaio Soier</h4>
                         </div>
                     </div>
                 </div>
@@ -339,105 +340,100 @@
     <!-- End team Area -->
 
     <!-- Start feature Area -->
-    <section class="feature-area section-gap">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="menu-content pb-60 col-lg-8">
-                    <div class="title text-center">
-                        <h1 class="mb-10">Features that make us unique</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
+
+<section class="feature-area section-gap">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-60 col-lg-8">
+                <div class="title text-center">
+                    <h1 class="mb-10">Recursos que nos tornam únicos</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="single-feature d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-rocket"></span>
+                    </div>
+                    <div class="details">
+                        <h4>Emergência 24/7</h4>
+                        <p>
+                            O comportamento inapropriado muitas vezes é desprezado como "meninos serão meninos", as mulheres enfrentam um comportamento mais elevado.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="single-feature d-flex flex-row">
-                        <div class="icon">
-                            <span class="lnr lnr-rocket"></span>
-                        </div>
-                        <div class="details">
-                            <h4>24/7 Emergency</h4>
-                            <p>
-                                inappropriate behavior is often laughed off as “boys will be boys,” women face higher
-                                conduct women face higher conduct.
-                            </p>
-                        </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="single-feature d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-heart-pulse"></span>
+                    </div>
+                    <div class="details">
+                        <h4>Consulta Especializada</h4>
+                        <p>
+                            O comportamento inapropriado muitas vezes é desprezado como "meninos serão meninos", as mulheres enfrentam um comportamento mais elevado.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single-feature d-flex flex-row">
-                        <div class="icon">
-                            <span class="lnr lnr-heart-pulse"></span>
-                        </div>
-                        <div class="details">
-                            <h4>Expert Consultation</h4>
-                            <p>
-                                inappropriate behavior is often laughed off as “boys will be boys,” women face higher
-                                conduct women face higher conduct.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="single-feature d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-chart-bars"></span>
+                    </div>
+                    <div class="details">
+                        <h4>Serviço de Raio-X</h4>
+                        <p>
+                            O comportamento inapropriado muitas vezes é desprezado como "meninos serão meninos", as mulheres enfrentam um comportamento mais elevado.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single-feature d-flex flex-row">
-                        <div class="icon">
-                            <span class="lnr lnr-chart-bars"></span>
-                        </div>
-                        <div class="details">
-                            <h4>X-Ray Service</h4>
-                            <p>
-                                inappropriate behavior is often laughed off as “boys will be boys,” women face higher
-                                conduct women face higher conduct.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="single-feature d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-paw"></span>
+                    </div>
+                    <div class="details">
+                        <h4>Ciência Dentária</h4>
+                        <p>
+                            O comportamento inapropriado muitas vezes é desprezado como "meninos serão meninos", as mulheres enfrentam um comportamento mais elevado.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single-feature d-flex flex-row">
-                        <div class="icon">
-                            <span class="lnr lnr-paw"></span>
-                        </div>
-                        <div class="details">
-                            <h4>Dental Science</h4>
-                            <p>
-                                inappropriate behavior is often laughed off as “boys will be boys,” women face higher
-                                conduct women face higher conduct.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="single-feature d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-bug"></span>
+                    </div>
+                    <div class="details">
+                        <h4>Cuidados Intensivos</h4>
+                        <p>
+                            O comportamento inapropriado muitas vezes é desprezado como "meninos serão meninos", as mulheres enfrentam um comportamento mais elevado.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single-feature d-flex flex-row">
-                        <div class="icon">
-                            <span class="lnr lnr-bug"></span>
-                        </div>
-                        <div class="details">
-                            <h4>Intensive Care</h4>
-                            <p>
-                                inappropriate behavior is often laughed off as “boys will be boys,” women face higher
-                                conduct women face higher conduct.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="single-feature d-flex flex-row">
+                    <div class="icon">
+                        <span class="lnr lnr-users"></span>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single-feature d-flex flex-row">
-                        <div class="icon">
-                            <span class="lnr lnr-users"></span>
-                        </div>
-                        <div class="details">
-                            <h4>Family Planning</h4>
-                            <p>
-                                inappropriate behavior is often laughed off as “boys will be boys,” women face higher
-                                conduct women face higher conduct.
-                            </p>
-                        </div>
+                    <div class="details">
+                        <h4>Planejamento Familiar</h4>
+                        <p>
+                            O comportamento inapropriado muitas vezes é desprezado como "meninos serão meninos", as mulheres enfrentam um comportamento mais elevado.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <!-- End feature Area -->
 
     <!-- Start appoinment Area -->
@@ -446,43 +442,42 @@
             <div class="row align-items-center justify-content-end">
                 <div class="col-lg-6 no-padding appoinment-right">
                     <h1 class="text-white">
-                        Book an <br>
-                        Appoinment
+                        Agende um <br>
+                        Compromisso
                     </h1>
                     <form class="appoinment-form" id="myForm" action="#">
                         <div class="row">
                             <div class="col-lg-12 d-flex flex-column">
-                                <input name="patient-name" placeholder="Patient Name" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Patient Name'" class="form-control mt-20" required=""
+                                <input name="patient-name" placeholder="Nome do Paciente" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Nome do Paciente'" class="form-control mt-20" required=""
                                     type="text">
                             </div>
                             <div class="col-lg-6 d-flex flex-column">
-                                <input name="phone" placeholder="Phone" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Phone'" class="form-control mt-20" required=""
+                                <input name="phone" placeholder="Telefone" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Telefone'" class="form-control mt-20" required=""
                                     type="text">
                             </div>
                             <div class="col-lg-6 d-flex flex-column">
-                                <input name="email" placeholder="Email address" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Email address'" class="form-control mt-20" required=""
+                                <input name="email" placeholder="Endereço de E-mail" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Endereço de E-mail'" class="form-control mt-20" required=""
                                     type="email">
                             </div>
                             <div class="col-lg-6 d-flex flex-column">
-                                <input name="dob" placeholder="Date of birth" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Date of birth'" class="form-control mt-20" required=""
+                                <input name="dob" placeholder="Data de Nascimento" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Data de Nascimento'" class="form-control mt-20" required=""
                                     type="text" id="datepicker">
                             </div>
                             <div class="col-lg-6 d-flex flex-column">
-                                <input name="appoinment-date" placeholder="Appoinment date"
-                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Appoinment date'"
+                                <input name="appoinment-date" placeholder="Data do Compromisso"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Data do Compromisso'"
                                     class="form-control mt-20" required="" type="text" id="datepicker2">
                             </div>
                             <div class="col-lg-12 flex-column">
-                                <textarea rows="5" class="form-control mt-20" name="message" placeholder="Messege"
-                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+                                <textarea rows="5" class="form-control mt-20" name="message" placeholder="Mensagem"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensagem'" required=""></textarea>
                             </div>
-
-                            <div class="col-lg-12 d-flex justify-content-end send-btn">
-                                <button class="primary-btn primary mt-20 text-uppercase ">Confirm booking</button>
+                              <div class="col-lg-12 d-flex justify-content-end send-btn">
+                                <button class="primary-btn primary mt-20 text-uppercase ">Confirmar agendamento</button>
                             </div>
 
                             <div class="alert-msg"></div>
