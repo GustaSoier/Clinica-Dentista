@@ -164,9 +164,8 @@
             <div class="row d-flex justify-content-center">
                 <div class="menu-content pb-60 col-lg-8">
                     <div class="title text-center">
-                        <h1 class="mb-10">Feedback from our real clients</h1>
-                        <p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the
-                            introduction of Virtual Game.</p>
+                        <h1 class="mb-10">Feedback de nossos clientes reais</h1>
+                        <p>Não será um grande problema encontrar um amante de videogame em seu bairro. Desde a introdução do Jogo Virtual.</p>
                     </div>
                 </div>
             </div>
@@ -175,100 +174,100 @@
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
                         <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer,
-                            scanner, speaker, projector, hardware and more. laptop accessory
+                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
+                            scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
                         <h4>Mark Alviro Wiens</h4>
                         <p>
-                            CEO at Google
+                            CEO do Google
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
                         <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer,
-                            scanner, speaker, projector, hardware and more. laptop accessory
+                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
+                            scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
                         <h4>Mark Alviro Wiens</h4>
                         <p>
-                            CEO at Google
+                            CEO do Google
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
                         <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer,
-                            scanner, speaker, projector, hardware and more. laptop accessory
+                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
+                            scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
                         <h4>Mark Alviro Wiens</h4>
                         <p>
-                            CEO at Google
+                            CEO do Google
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
                         <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer,
-                            scanner, speaker, projector, hardware and more. laptop accessory
+                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
+                            scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
                         <h4>Mark Alviro Wiens</h4>
                         <p>
-                            CEO at Google
+                            CEO do Google
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
                         <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer,
-                            scanner, speaker, projector, hardware and more. laptop accessory
+                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
+                            scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
                         <h4>Mark Alviro Wiens</h4>
                         <p>
-                            CEO at Google
+                            CEO do Google
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
                         <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer,
-                            scanner, speaker, projector, hardware and more. laptop accessory
+                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
+                            scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
                         <h4>Mark Alviro Wiens</h4>
                         <p>
-                            CEO at Google
+                            CEO do Google
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
                         <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer,
-                            scanner, speaker, projector, hardware and more. laptop accessory
+                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
+                            scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
                         <h4>Mark Alviro Wiens</h4>
                         <p>
-                            CEO at Google
+                            CEO do Google
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
                         <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer,
-                            scanner, speaker, projector, hardware and more. laptop accessory
+                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
+                            scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
                         <h4>Mark Alviro Wiens</h4>
                         <p>
-                            CEO at Google
+                            CEO do Google
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
                         <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer,
-                            scanner, speaker, projector, hardware and more. laptop accessory
+                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
+                            scanner, alto-falante, projetor, hardware e muito mais. Acessório para laptop.
                         </p>
                         <h4>Mark Alviro Wiens</h4>
                         <p>
-                            CEO at Google
+                            CEO do Google
                         </p>
                     </div>
                 </div>
