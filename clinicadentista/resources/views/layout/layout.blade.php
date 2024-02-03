@@ -56,7 +56,7 @@
           <div class="row align-items-center justify-content-between d-flex">
             <nav id="nav-menu-container">
               <ul class="nav-menu">
-                <li class="menu-active"><a href="index.html">Home</a></li>
+                <li class="menu-active"><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ url('/sobre') }}">Sobre</a></li>
                 <li><a href="{{ url('/servicos') }}">Serviços</a></li>
                 <li><a href="{{ url('/horarioAtendimento') }}">Horário de Atendimento </a></li>
@@ -73,7 +73,7 @@
                   </ul>
                 </li>
                 <li><a href="{{ url('/precos') }}">Preços</a></li>
-                <li><a href="el{{ url('/elementos') }}">Elementos</a></li>
+                <li><a href="{{ url('/elementos') }}">Elementos</a></li>
                 <li><a href="{{ ('/contato') }}">Contato</a></li>
               </ul>
             </nav><!-- #nav-menu-container -->
@@ -97,7 +97,7 @@
 			<div class="row">
 				<div class="col-lg-2 col-md-6">
 					<div class="single-footer-widget">
-						<h6>Top Produtos</h6>
+						<h6>Melhores Produtos</h6>
 						<ul class="footer-nav">
 							<li><a href="#">Website Gerenciado</a></li>
 							<li><a href="#">Gerenciar Reputação</a></li>
