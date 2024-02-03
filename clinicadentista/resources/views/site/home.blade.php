@@ -1,6 +1,6 @@
 @extends('layout.layout')
 
-@section('title', 'Index')
+@section('title', 'Home')
 
 @section('conteudo')
 
@@ -573,10 +573,6 @@
             </div>
         </div>
     </section>
-
-
-
-
     <!-- End blog Area -->
 
 @endsection
