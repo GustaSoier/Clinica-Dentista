@@ -69,7 +69,8 @@
                             <h4>Uso Popular da Internet</h4>
                         </a>
                         <p>
-                            Comportamento inadequado é frequentemente tolerado como "coisas de meninos", mulheres enfrentam padrões de conduta mais elevados.
+                            Comportamento inadequado é frequentemente tolerado como "coisas de meninos", mulheres enfrentam
+                            padrões de conduta mais elevados.
                         </p>
                     </div>
                 </div>
@@ -80,7 +81,8 @@
                             <h4>Preventivo Protetor</h4>
                         </a>
                         <p>
-                            Comportamento inadequado é frequentemente tolerado como "coisas de meninos", mulheres enfrentam padrões de conduta mais elevados.
+                            Comportamento inadequado é frequentemente tolerado como "coisas de meninos", mulheres enfrentam
+                            padrões de conduta mais elevados.
                         </p>
                     </div>
                 </div>
@@ -91,7 +93,8 @@
                             <h4>Baixe Músicas Grátis</h4>
                         </a>
                         <p>
-                            Comportamento inadequado é frequentemente tolerado como "coisas de meninos", mulheres enfrentam padrões de conduta mais elevados.
+                            Comportamento inadequado é frequentemente tolerado como "coisas de meninos", mulheres enfrentam
+                            padrões de conduta mais elevados.
                         </p>
                     </div>
                 </div>
@@ -102,7 +105,8 @@
                             <h4>Um Cartucho de Toner com Desconto</h4>
                         </a>
                         <p>
-                            Comportamento inadequado é frequentemente tolerado como "coisas de meninos", mulheres enfrentam padrões de conduta mais elevados.
+                            Comportamento inadequado é frequentemente tolerado como "coisas de meninos", mulheres enfrentam
+                            padrões de conduta mais elevados.
                         </p>
                     </div>
                 </div>
@@ -121,7 +125,9 @@
                         para Servir a nação
                     </h1>
                     <p>
-                        O comportamento inadequado muitas vezes é ignorado como "coisas de meninos", as mulheres enfrentam padrões de conduta mais elevados, especialmente no local de trabalho. Por isso, é crucial que, como mulheres, nosso comportamento no trabalho esteja além de qualquer reprovação.
+                        O comportamento inadequado muitas vezes é ignorado como "coisas de meninos", as mulheres enfrentam
+                        padrões de conduta mais elevados, especialmente no local de trabalho. Por isso, é crucial que, como
+                        mulheres, nosso comportamento no trabalho esteja além de qualquer reprovação.
                     </p>
                     <div class="row no-gutters">
                         <div class="single-services col">
@@ -155,8 +161,9 @@
             <div class="row d-flex justify-content-center">
                 <div class="menu-content pb-60 col-lg-8">
                     <div class="title text-center">
-                        <h1 class="mb-10">Feedback from our real clients</h1>
-                        <p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game.</p>
+                        <h1 class="mb-10">Feedback dos nossos clientes reais</h1>
+                        <p>Não será um grande problema encontrar um amante de videogame em seu vizinho. Desde a introdução
+                            do Jogo Virtual.</p>
                     </div>
                 </div>
             </div>
@@ -164,93 +171,75 @@
                 <div class="active-testimonial-carusel">
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
-                        <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
-                        </p>
+                        <p class="desc">Acessórios. Aqui você pode encontrar os melhores acessórios de computador para o
+                            seu laptop, monitor, impressora, scanner, alto-falante, projetor, hardware e muito mais.
+                            Acessório para laptop</p>
                         <h4>Mark Alviro Wiens</h4>
-                        <p>
-                            CEO at Google
-                        </p>
+                        <p>CEO na Google</p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
-                        <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
-                        </p>
+                        <p class="desc">Acessórios. Aqui você pode encontrar os melhores acessórios de computador para o
+                            seu laptop, monitor, impressora, scanner, alto-falante, projetor, hardware e muito mais.
+                            Acessório para laptop</p>
                         <h4>Mark Alviro Wiens</h4>
-                        <p>
-                            CEO at Google
-                        </p>
+                        <p>CEO na Google</p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
-                        <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
-                        </p>
+                        <p class="desc">Acessórios. Aqui você pode encontrar os melhores acessórios de computador para o
+                            seu laptop, monitor, impressora, scanner, alto-falante, projetor, hardware e muito mais.
+                            Acessório para laptop</p>
                         <h4>Mark Alviro Wiens</h4>
-                        <p>
-                            CEO at Google
-                        </p>
+                        <p>CEO na Google</p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
-                        <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
-                        </p>
+                        <p class="desc">Acessórios. Aqui você pode encontrar os melhores acessórios de computador para o
+                            seu laptop, monitor, impressora, scanner, alto-falante, projetor, hardware e muito mais.
+                            Acessório para laptop</p>
                         <h4>Mark Alviro Wiens</h4>
-                        <p>
-                            CEO at Google
-                        </p>
+                        <p>CEO na Google</p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
-                        <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
-                        </p>
+                        <p class="desc">Acessórios. Aqui você pode encontrar os melhores acessórios de computador para o
+                            seu laptop, monitor, impressora, scanner, alto-falante, projetor, hardware e muito mais.
+                            Acessório para laptop</p>
                         <h4>Mark Alviro Wiens</h4>
-                        <p>
-                            CEO at Google
-                        </p>
+                        <p>CEO na Google</p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
-                        <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
-                        </p>
+                        <p class="desc">Acessórios. Aqui você pode encontrar os melhores acessórios de computador para o
+                            seu laptop, monitor, impressora, scanner, alto-falante, projetor, hardware e muito mais.
+                            Acessório para laptop</p>
                         <h4>Mark Alviro Wiens</h4>
-                        <p>
-                            CEO at Google
-                        </p>
+                        <p>CEO na Google</p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
-                        <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
-                        </p>
+                        <p class="desc">Acessórios. Aqui você pode encontrar os melhores acessórios de computador para o
+                            seu laptop, monitor, impressora, scanner, alto-falante, projetor, hardware e muito mais.
+                            Acessório para laptop</p>
                         <h4>Mark Alviro Wiens</h4>
-                        <p>
-                            CEO at Google
-                        </p>
+                        <p>CEO na Google</p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
-                        <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
-                        </p>
+                        <p class="desc">Acessórios. Aqui você pode encontrar os melhores acessórios de computador para o
+                            seu laptop, monitor, impressora, scanner, alto-falante, projetor, hardware e muito mais.
+                            Acessório para laptop</p>
                         <h4>Mark Alviro Wiens</h4>
-                        <p>
-                            CEO at Google
-                        </p>
+                        <p>CEO na Google</p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
-                        <p class="desc">
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
-                        </p>
+                        <p class="desc">Acessórios. Aqui você pode encontrar os melhores acessórios de computador para o
+                            seu laptop, monitor, impressora, scanner, alto-falante, projetor, hardware e muito mais.
+                            Acessório para laptop</p>
                         <h4>Mark Alviro Wiens</h4>
-                        <p>
-                            CEO at Google
-                        </p>
+                        <p>CEO na Google</p>
                     </div>
                 </div>
             </div>
