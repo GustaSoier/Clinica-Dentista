@@ -30,7 +30,7 @@
             <div class="col-lg-4 d-flex flex-column address-wrap">
                 <div class="single-contact-address d-flex flex-row">
                     <div class="icon">
-                        <span class="lnr lnr-home"></span>f
+                        <span class="lnr lnr-home"></span>
                     </div>
                     <div class="contact-details">
                         <h5>São Miguel Paulista, São Paulo</h5>
