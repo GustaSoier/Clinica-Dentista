@@ -550,7 +550,7 @@
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
                         <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
-                        <p><span class="lnr lnr-bubble"></span> 02 Comentários</p>
+                        <p><span class="lnr lnr-bubble"></span> 19 Comentários</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 single-blog">
@@ -567,7 +567,7 @@
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
                         <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
-                        <p><span class="lnr lnr-bubble"></span> 02 Comentários</p>
+                        <p><span class="lnr lnr-bubble"></span> 18 Comentários</p>
                     </div>
                 </div>
             </div>
