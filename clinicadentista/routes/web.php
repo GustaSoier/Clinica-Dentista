@@ -34,3 +34,6 @@ Route::get('/contato', [ContatoController::class, 'index'])->name('contato');
 
 
 Route::post('/contato/enviar', [ContatoController::class, 'salvarNoBanco'])->name('contato.enviar');
+
+
+// DASHBOARD
