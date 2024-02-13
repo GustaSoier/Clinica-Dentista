@@ -15,7 +15,14 @@ return new class extends Migration
     {
         Schema::create('usuarios', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('nomeUsuario', 255);
+            $table->string('emailUsuario', 255);
+            $table->string('senhaUsuario', 255);
+            $table->unsignedBigInteger('tipo_usuario_id');
+            $table->string('tipo_usuario_type', 255);
+            $table->timestamp('emailVerificado')->nullable();
+            $table->string('tokenLembrete', 100);
+            $table->timestamps(); // Laravel adiciona automaticamente created_at e updated_at
         });
     }
 
