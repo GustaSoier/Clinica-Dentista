@@ -59,21 +59,40 @@
                 </div>
             </div>
             <div class="col-lg-8">
-                <form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+                <form class="form-area " id="formContato" action="{{ route('contato.enviar') }}" method="post" class="contact-form text-right">
                     <div class="row">
                         <div class="col-lg-6 form-group">
-                            <input name="name" placeholder="Digite seu nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite seu nome'" class="common-input mb-20 form-control" required="" type="text">
 
-                            <input name="email" placeholder="Digite o endereço de e-mail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite o endereço de e-mail'" class="common-input mb-20 form-control" required="" type="email">
+                            <input name="nomeContato" placeholder="Digite seu nome" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite seu nome'" class="common-input mb-20 form-control" required type="text" id="nomeContato" value="{{ old('nomeContato') }}">
+                                <div id="nomeContatoError" class="error-mensagem"></div>
 
-                            <input name="subject" placeholder="Digite o assunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite o assunto'" class="common-input mb-20 form-control" required="" type="text">
+
+                            <input name="emailContato" placeholder="Digite o endereço de e-mail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite o endereço de e-mail'" class="common-input mb-20 form-control" required type="email" value="{{ old('emailContato') }}">
+                            <div id="emailContatoError" class="error-mensagem"></div>
+
+
+                            <input type="text" class="common-input mb-20 form-control" name="foneContato" id="foneContato" required  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite seu telefone:'" value="{{ old('foneContato') }}">
+                                        <div id="foneContatoError" class="error-mensagem"></div>
+
+
+                            <select name="assuntoContato" id="assuntoContato" class="common-input mb-20 form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite o assunto'" required>
+                                <option value="{{ old('assuntoContato') }}" disabled="" selected="" hidden="">Selecione o assunto</option>
+                                <option value="Aparelho">Aparelho</option>
+                                <option value="Clareamento">Clareamento</option>
+                                <option value="LentesDeContatoDental">Lentes de Contato Dental</option>
+                                <option value="Outros">Outros...</option>
+                            </select>
+                            <div id="assuntoContatoError" class="error-mensagem"></div>
                         </div>
+
+
                         <div class="col-lg-6 form-group">
-                            <textarea class="common-textarea form-control" name="message" placeholder="Digite a mensagem" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite a mensagem'" required=""></textarea>
+                            <textarea class="common-textarea form-control" name="mensContato" placeholder="Digite a mensagem" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite a mensagem'" required id="mensContato" value={{ old ('mensContato') }}></textarea>
+                            <div id="mensContatoError" class="error-mensagem"></div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="alert-msg" style="text-align: left;"></div>
-                            <button class="genric-btn primary circle" style="float: right;">Enviar Mensagem</button>
+                            <input type="submit" value="Enviar via e-mail" class="btn-enviar" onclick="formContato(event)">
+                                <div id="contatoMensagem" class="msgContato"></div>
                         </div>
                     </div>
                 </form>

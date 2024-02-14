@@ -15,8 +15,7 @@
                         Serviço Odontológico Autêntico
                     </h1>
                     <p class="text-white mx-auto">
-                        Se você está olhando para fitas em branco na web, pode ficar muito confuso com a diferença de preço.
-                        Você pode ver algumas por tão baixo quanto $0.17 cada. Você pode estar dizendo a si mesmo.
+                        Uma clínica odontológica é mais do que um espaço de cuidado bucal; é um lugar onde sorrisos são restaurados e confiança é reconstruída.
                     </p>
                     <a href="#" class="primary-btn header-btn text-uppercase mt-10">Começar</a>
                 </div>
@@ -550,7 +549,7 @@
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
                         <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
-                        <p><span class="lnr lnr-bubble"></span> 02 Comentários</p>
+                        <p><span class="lnr lnr-bubble"></span> 19 Comentários</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 single-blog">
@@ -567,7 +566,7 @@
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
                         <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
-                        <p><span class="lnr lnr-bubble"></span> 02 Comentários</p>
+                        <p><span class="lnr lnr-bubble"></span> 18 Comentários</p>
                     </div>
                 </div>
             </div>

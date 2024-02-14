@@ -2264,6 +2264,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
 }
 
+.header-btn-login {
+    background-color: #ff0000 !important;
+    border-radius: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 10px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
 .banner-img {
     text-align: right;
 }
@@ -3107,6 +3118,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     .contact-page-area .map-wrap {
         margin-bottom: 50px;
     }
+
+    .map-wrap{
+        width: 50%;
+        padding-right: 20%;
+    }
 }
 
 .contact-page-area .contact-btns {
@@ -3133,7 +3149,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .contact-page-area .form-area textarea {
-    height: 190px;
+    height: 245px;
     margin-top: 0px;
 }
 
@@ -3975,4 +3991,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: transparent;
     border-color: #28CED9 !important;
     color: #28CED9 !important;
+}
+
+
+.btn-enviar{
+    background-color: #28CED9;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    place-items: center;
+    border: none;
+    color: white;
 }
