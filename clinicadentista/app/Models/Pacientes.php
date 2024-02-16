@@ -12,6 +12,7 @@ class Pacientes extends Model
     protected $table = 'pacientes';
 
     protected $fillable = [
+        'idPaciente',
         'nomePaciente',
         'emailPaciente',
         'cpfPaciente',

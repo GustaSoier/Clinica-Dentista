@@ -12,6 +12,7 @@ class Funcionario extends Model
     protected $table = 'funcionarios';
 
     protected $fillable = [
+        'idFuncionario',
         'nomeFuncionario',
         'dataNascFuncionario',
         'foneFuncionario',

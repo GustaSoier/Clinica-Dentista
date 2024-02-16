@@ -12,13 +12,15 @@ class Usuario extends Model
     protected $table = 'usuarios';
 
     protected $fillable = [
+        'idUsuario',
         'nomeUsuario',
         'emailUsuario',
         'senhaUsuario',
         'tipo_usuario_id',
         'tipo_usuario_type',
         'emailVerificado',
-        'tokenLembrete',];
+        'tokenLembrete'
+    ];
 
     public function tipo_usuario() {
         return $this -> morphTo('tipo_usuario', 'tipo_usuario_type', 'tipo_usuario_id');

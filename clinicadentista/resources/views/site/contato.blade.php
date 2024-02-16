@@ -67,7 +67,7 @@
                                 <div id="nomeContatoError" class="error-mensagem"></div>
 
 
-                            <input name="emailContato" placeholder="Digite o endereço de e-mail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite o endereço de e-mail'" class="common-input mb-20 form-control" required type="email" value="{{ old('emailContato') }}">
+                            <input name="emailContato" placeholder="Digite o endereço de e-mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite o endereço de e-mail'" class="common-input mb-20 form-control" required type="email" id="emailContato" value="{{ old('emailContato') }}">
                             <div id="emailContatoError" class="error-mensagem"></div>
 
 
