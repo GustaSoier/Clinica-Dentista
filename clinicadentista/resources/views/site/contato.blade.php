@@ -71,7 +71,7 @@
                             <div id="emailContatoError" class="error-mensagem"></div>
 
 
-                            <input type="text" class="common-input mb-20 form-control" name="foneContato" id="foneContato" required  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite seu telefone:'" value="{{ old('foneContato') }}">
+                            <input type="text" class="common-input mb-20 form-control" name="foneContato" id="foneContato" required  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite seu telefone'" value="{{ old('foneContato') }}">
                                         <div id="foneContatoError" class="error-mensagem"></div>
 
 
