@@ -41,4 +41,31 @@ class ContatoController extends Controller
         }
 
     }
+
+    public function salvarEmail(Request $request)
+    {
+        $dados = $request->all();
+
+        $validarDados = Validator::make($dados, [
+            'emailNewsLetter'   => 'required|email|max:100',
+        ]);
+
+        if ($validarDados->fails()) {
+            return response()->json(['errors' => $validarDados->errors()], 422);
+        }
+        else {
+
+            $verificarEmail = NewsLetter::where('emailNewsLetter', $dados['emailNewsLetter'])->exists();
+
+            if ($verificarEmail) {
+                return response()->json(['errors' => ['emailNewsLetter' => 'Este E-mail já está registrado.']], 422);
+            }
+
+            NewsLetter::create($validarDados -> validated());
+
+            return response() -> json(['success' => 'Email registrado com sucesso']);
+
+        }
+
+    }
 }

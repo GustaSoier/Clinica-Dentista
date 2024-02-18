@@ -503,14 +503,14 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 single-blog">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/b1.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset ('img/b1.jpg') }}" alt="">
                     </div>
-                    <p class="date">18 Jan 2023</p>
+                    <p class="date">18 Jan 2021</p>
                     <a href="blog-single.html">
                         <h4>Desvendando Mitos: Verdades Sobre os Tratamentos Dentários</h4>
                     </a>
                     <p>
-                        Neste espaço, desmistificamos conceitos comuns sobre tratamentos odontológicos. Exploramos desde procedimentos básicos de prevenção até tratamentos estéticos avançados, oferecendo informações claras e precisas para ajudá-lo a tomar decisões informadas sobre sua saúde bucal.
+                        Desmistificamos conceitos comuns sobre tratamentos odontológicos. Exploramos desde procedimentos básicos de prevenção até tratamentos estéticos avançados, oferecendo informações claras e precisas para ajudá-lo a tomar decisões informadas sobre sua saúde bucal.
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
                         <p><span class="lnr lnr-heart"></span> 43 Curtidas</p>
@@ -519,52 +519,50 @@
                 </div>
                 <div class="col-lg-3 col-md-6 single-blog">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/b2.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset ('img/b2.jpg') }}" alt="">
                     </div>
-                    <p class="date">10 Jan 2018</p>
+                    <p class="date">24 Jul 2022</p>
                     <a href="blog-single.html">
                         <h4>Inovações em Odontologia: Conheça as Últimas Tendências</h4>
                     </a>
                     <p>
-                        Comportamento inapropriado ipsum dolor sit amet, consectetur.
+                        Mantenha-se atualizado com as últimas novidades e avanços na área odontológica. Este blog destaca inovações em tecnologia, técnicas de tratamento e pesquisas científicas que estão moldando o futuro da odontologia, proporcionando insights valiosos para profissionais e pacientes.
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
-                        <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
-                        <p><span class="lnr lnr-bubble"></span> 02 Comentários</p>
+                        <p><span class="lnr lnr-heart"></span> 19 Curtidas</p>
+                        <p><span class="lnr lnr-bubble"></span> 07 Comentários</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 single-blog">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/b3.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset ('img/b3.jpg') }}" alt="">
                     </div>
-                    <p class="date">10 Jan 2018</p>
+                    <p class="date">06 Ago 2023</p>
                     <a href="blog-single.html">
-                        <h4>Vício: Quando o Jogo
-                            se Torna um Problema</h4>
+                        <h4>O Sorriso dos Seus Sonhos: Transforme sua Estética Dental</h4>
                     </a>
                     <p>
-                        Comportamento inapropriado ipsum dolor sit amet, consectetur.
+                        Explore o mundo da estética dental e descubra como alcançar o sorriso dos seus sonhos. Este blog oferece informações sobre clareamento dental, lentes de contato dental, alinhadores transparentes e outros tratamentos estéticos que podem melhorar sua autoconfiança e qualidade de vida.
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
-                        <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
-                        <p><span class="lnr lnr-bubble"></span> 19 Comentários</p>
+                        <p><span class="lnr lnr-heart"></span> 33 Curtidas</p>
+                        <p><span class="lnr lnr-bubble"></span> 11 Comentários</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 single-blog">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/b4.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset ('img/b4.jpg') }}" alt="">
                     </div>
-                    <p class="date">10 Jan 2018</p>
+                    <p class="date">17 Set 2023</p>
                     <a href="blog-single.html">
-                        <h4>Vício: Quando o Jogo
-                            se Torna um Problema</h4>
+                        <h4>Dicas de Higiene Bucal: Mantenha seu Sorriso Radiantev</h4>
                     </a>
                     <p>
-                        Comportamento inapropriado ipsum dolor sit amet, consectetur.
+                        Descubra dicas práticas e informações úteis para manter sua saúde bucal em dia. Neste blog, compartilhamos orientações sobre escovação, uso de fio dental, escolha de produtos odontológicos e muito mais para ajudá-lo a conquistar um sorriso saudável e radiante.
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
-                        <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
-                        <p><span class="lnr lnr-bubble"></span> 18 Comentários</p>
+                        <p><span class="lnr lnr-heart"></span> 26 Curtidas</p>
+                        <p><span class="lnr lnr-bubble"></span> 14 Comentários</p>
                     </div>
                 </div>
             </div>

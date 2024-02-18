@@ -111,7 +111,7 @@
 						<h6>Boletim Informativo</h6>
 						<p>Você pode confiar em nós. Nós apenas enviamos ofertas promocionais, nenhum spam.</p>
 						<div id="mc_embed_signup">
-							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+							<form target="_blank" novalidate="true" action="{{ route ('contato.enviarnew') }};id=92a4423d01" method="POST" class="form-inline newsletter-form" id="newsLetter">
 								<div class="form-group row" style="width: 100%">
 									<div class="col-lg-8 col-md-12">
 										<input name="EMAIL" placeholder="Seu Endereço de Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Seu Endereço de Email'" required="" type="email">
@@ -120,7 +120,7 @@
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-12">
-										<button class="nw-btn primary-btn">Inscreva<span class="lnr lnr-arrow-right"></span></button>
+										<button class="nw-btn primary-btn" onclick="newsLetter(event)">Inscreva<span class="lnr lnr-arrow-right"></span></button>
 									</div>
 								</div>
 								<div class="info"></div>
