@@ -510,11 +510,11 @@
                         <h4>Desvendando Mitos: Verdades Sobre os Tratamentos Dentários</h4>
                     </a>
                     <p>
-                        Comportamento inapropriado ipsum dolor sit amet, consectetur.
+                        Neste espaço, desmistificamos conceitos comuns sobre tratamentos odontológicos. Exploramos desde procedimentos básicos de prevenção até tratamentos estéticos avançados, oferecendo informações claras e precisas para ajudá-lo a tomar decisões informadas sobre sua saúde bucal.
                     </p>
                     <div class="meta-bottom d-flex justify-content-between">
-                        <p><span class="lnr lnr-heart"></span> 15 Curtidas</p>
-                        <p><span class="lnr lnr-bubble"></span> 02 Comentários</p>
+                        <p><span class="lnr lnr-heart"></span> 43 Curtidas</p>
+                        <p><span class="lnr lnr-bubble"></span> 14 Comentários</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 single-blog">
