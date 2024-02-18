@@ -294,7 +294,7 @@
                         <img class="img-fluid" src="img/t1.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                Comportamento inapropriado
+                                Ortodontia - (UFRJ)
                             </p>
                             <h4>Gustavo Sampaio Soier</h4>
                         </div>
@@ -305,7 +305,7 @@
                         <img class="img-fluid" src="img/t2.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                Comportamento inapropriado
+                                Implantodontia - (UFMG)
                             </p>
                             <h4>Gustavo Sampaio Soier</h4>
                         </div>
@@ -316,7 +316,7 @@
                         <img class="img-fluid" src="img/t3.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                Comportamento inapropriado
+                                Endodontia - (UNICAMP)
                             </p>
                             <h4>Gustavo Sampaio Soier</h4>
                         </div>
@@ -327,7 +327,7 @@
                         <img class="img-fluid" src="img/t4.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                Comportamento inapropriado
+                                Periodontia - (USP)
                             </p>
                             <h4>Gustavo Sampaio Soier</h4>
                         </div>
@@ -505,10 +505,9 @@
                     <div class="thumb">
                         <img class="img-fluid" src="img/b1.jpg" alt="">
                     </div>
-                    <p class="date">10 Jan 2018</p>
+                    <p class="date">18 Jan 2023</p>
                     <a href="blog-single.html">
-                        <h4>Vício: Quando o Jogo
-                            se Torna um Problema</h4>
+                        <h4>Desvendando Mitos: Verdades Sobre os Tratamentos Dentários</h4>
                     </a>
                     <p>
                         Comportamento inapropriado ipsum dolor sit amet, consectetur.

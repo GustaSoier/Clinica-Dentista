@@ -38,11 +38,10 @@
                     <div class="single-service">
                         <img class="img-fluid" src="img/s1.jpg" alt="">
                         <a href="#">
-                            <h4>Uso Popular da Internet</h4>
+                            <h4>Manutenção de Aparelho</h4>
                         </a>
                         <p>
-                            Comportamento inadequado é frequentemente tolerado como "coisa de menino", mulheres enfrentam um
-                            comportamento mais elevado.
+                            A manutenção de aparelho ortodôntico é fundamental para garantir a saúde bucal do paciente. Envolve práticas como higienização adequada, consultas regulares ao ortodontista, reposição de peças danificadas.
                         </p>
                     </div>
                 </div>
@@ -50,11 +49,10 @@
                     <div class="single-service">
                         <img class="img-fluid" src="img/s2.jpg" alt="">
                         <a href="#">
-                            <h4>Preventivo Protetor</h4>
+                            <h4>Clareamento</h4>
                         </a>
                         <p>
-                            Comportamento inadequado é frequentemente tolerado como "coisa de menino", mulheres enfrentam um
-                            comportamento mais elevado.
+                            O clareamento dental é um procedimento estético popular que visa melhorar a aparência dos dentes, proporcionando um sorriso mais branco e radiante.
                         </p>
                     </div>
                 </div>
@@ -62,11 +60,10 @@
                     <div class="single-service">
                         <img class="img-fluid" src="img/s3.jpg" alt="">
                         <a href="#">
-                            <h4>Baixe Músicas Gratuitas</h4>
+                            <h4>Lente de Contato Dental</h4>
                         </a>
                         <p>
-                            Comportamento inadequado é frequentemente tolerado como "coisa de menino", mulheres enfrentam um
-                            comportamento mais elevado.
+                            As lentes de contato dental são finas camadas de porcelana aplicadas sobre a superfície dos dentes para corrigir imperfeições estéticas, como manchas, irregularidades e espaços.
                         </p>
                     </div>
                 </div>
@@ -74,11 +71,10 @@
                     <div class="single-service">
                         <img class="img-fluid" src="img/s4.jpg" alt="">
                         <a href="#">
-                            <h4>Um Cartucho de Toner com Desconto</h4>
+                            <h4>Canal Dental</h4>
                         </a>
                         <p>
-                            Comportamento inadequado é frequentemente tolerado como "coisa de menino", mulheres enfrentam um
-                            comportamento mais elevado.
+                            O tratamento de canal dental é realizado para remover a polpa infectada, aliviar a dor e preservar o dente. Envolve a remoção do tecido infectado, limpeza dos canais e preenchimento com material obturador.
                         </p>
                     </div>
                 </div>

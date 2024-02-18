@@ -89,10 +89,10 @@
 					<div class="single-footer-widget">
 						<h6>Melhores Produtos</h6>
 						<ul class="footer-nav">
-							<li><a href="#">Website Gerenciado</a></li>
-							<li><a href="#">Gerenciar Reputação</a></li>
-							<li><a href="#">Ferramentas de Potência</a></li>
-							<li><a href="#">Serviço de Marketing</a></li>
+							<li><a href="#">Manutenção de Aparelhos</a></li>
+							<li><a href="#">Lente de Contato Dental</a></li>
+							<li><a href="#">Clareamento</a></li>
+							<li><a href="#">Canal Dental</a></li>
 						</ul>
 					</div>
 				</div>
@@ -100,10 +100,10 @@
 					<div class="single-footer-widget mail-chimp">
 						<h6 class="mb-20">Contate-nos</h6>
 						<p>
-							56/8, bir uttam qazi nuruzzaman road, west panthapath, kalabagan, Dhanmondi, Dhaka - 1205
+							Avenida Marechal Tito, 1500 - São Paulo, Brasil
 						</p>
-						<h3>012-6532-568-9746</h3>
-						<h3>012-6532-568-97468</h3>
+						<h3>11 95169-4143</h3>
+                        <h3>dentalcare@gmail.com</h3>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12">

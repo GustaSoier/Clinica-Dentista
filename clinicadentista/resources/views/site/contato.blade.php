@@ -90,7 +90,7 @@
                             <textarea class="common-textarea form-control" name="mensContato" placeholder="Digite a mensagem" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite a mensagem'" required id="mensContato" value={{ old ('mensContato') }}></textarea>
                             <div id="mensContatoError" class="error-mensagem"></div>
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 btn-email">
                             <input type="submit" value="Enviar via e-mail" class="btn-enviar" onclick="formContato(event)">
                                 <div id="contatoMensagem" class="msgContato"></div>
                         </div>
