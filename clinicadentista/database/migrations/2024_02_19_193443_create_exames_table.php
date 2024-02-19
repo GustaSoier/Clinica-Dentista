@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('exames', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('idPaciente');
+            $table->string('tipoExame', 100);
+            $table->date('dataRealizacaoExame');
+            $table->text('resultadoExame');
+            $table->foreign('idPaciente')->references('idPaciente')->on('pacientes')->onDelete('cascade');
             $table->timestamps();
         });
     }
