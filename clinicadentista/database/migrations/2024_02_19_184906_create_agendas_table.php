@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('agendas', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('idDentista');
+            $table->unsignedBigInteger('idFuncionario');
             $table->dateTime('dataHoraAgenda');
             $table->enum('statusAgenda', ['Marcada', 'Cancelada', 'Realizada']);
             $table->text('observacoesAgenda')->nullable();
