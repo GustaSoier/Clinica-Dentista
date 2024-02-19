@@ -13,11 +13,17 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('historico_medicos', function (Blueprint $table) {
+        Schema::create('historico_medico', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('idPaciente');
+            $table->dateTime('dataAtendimento');
+            $table->string('procedimentoRealizado', 255);
+            $table->text('observacoesHistoricoMedico')->nullable();
+            $table->foreign('idPaciente')->references('idPaciente')->on('pacientes')->onDelete('cascade');
             $table->timestamps();
         });
     }
+
 
     /**
      * Reverse the migrations.
