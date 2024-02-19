@@ -3,6 +3,7 @@
 use App\Http\Controllers\ContatoController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\HorarioAtendimentoController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PrecosController;
 use App\Http\Controllers\ServicosController;
 use App\Http\Controllers\sobreController;
@@ -31,8 +32,12 @@ Route::get('/precos', [PrecosController::class, 'index'])->name('precos');
 Route::get('/contato', [ContatoController::class, 'index'])->name('contato');
 
 
+// CONTATO
 Route::post('/contato/enviar', [ContatoController::class, 'salvarNoBanco'])->name('contato.enviar');
 Route::post('/contato/enviarnew', [ContatoController::class, 'salvarEmail'])->name('contato.enviarnew');
 
+
+// LOGIN
+Route::get('/login', [LoginController::class, 'index'])->name('login');
 
 // DASHBOARD

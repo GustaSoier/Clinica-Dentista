@@ -19,7 +19,7 @@ return new class extends Migration
             $table->decimal('valorPagamento', 10, 2);
             $table->date('dataPagamento');
             $table->string('metodoPagamento', 50);
-            $table->foreign('idConsulta')->references('id')->on('consultas')->onDelete('cascade');
+            $table->foreign('idConsulta')->references('idConsulta')->on('consultas')->onDelete('cascade');
             $table->timestamps();
         });
     }

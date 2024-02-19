@@ -16,11 +16,11 @@ return new class extends Migration
         Schema::create('consultas', function (Blueprint $table) {
             $table->id('idConsulta');
             $table->unsignedBigInteger('idPaciente');
-            $table->unsignedBigInteger('idDentista');
+            $table->unsignedBigInteger('idFuncionario');
             $table->dateTime('dataConsulta');
             $table->text('observacoesConsulta')->nullable();
-            $table->foreign('idPaciente')->references('id')->on('pacientes')->onDelete('cascade');
-            $table->foreign('idDentista')->references('id')->on('dentistas')->onDelete('cascade');
+            $table->foreign('idPaciente')->references('idPaciente')->on('pacientes')->onDelete('cascade');
+            $table->foreign('idFuncionario')->references('idFuncionario')->on('funcionarios')->onDelete('cascade');
             $table->timestamps();
         });
     }

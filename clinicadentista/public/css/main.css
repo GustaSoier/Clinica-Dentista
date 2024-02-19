@@ -2258,17 +2258,32 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 1px solid #fff;
     background: transparent;
     color: #fff;
+
 }
 
 .header-btn-login {
-    background-color: #ff0000 !important;
+    background-color: #1aa2ac;
     border-radius: 0;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-right: 10px;
     margin-right: 10px;
     border: 1px solid transparent;
     color: #fff;
+    transition: all ease-in .1s;
+    border-radius: 10px;
+}
+
+.header-btn-login:hover {
+    color: red !important;
+}
+
+.primary-btn-login {
+        line-height: 42px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 25px;
+        border: none;
+        color: #fff;
+        display: inline-block;
+        font-weight: 500;
 }
 
 .banner-img {

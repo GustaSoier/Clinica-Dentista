@@ -13,9 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('newsletter', function (Blueprint $table) {
+        Schema::create('historico_medicos', function (Blueprint $table) {
             $table->id();
-            $table->string('emailNewsLetter', 100);
             $table->timestamps();
         });
     }
@@ -27,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('news_letters');
+        Schema::dropIfExists('historico_medicos');
     }
 };

@@ -71,7 +71,10 @@
               </ul>
             </nav><!-- #nav-menu-container -->
 
-                <a href="#" class="primary-btn header-btn-login text-uppercase">Login</a>
+            <div class="header-btn-login">
+                <i class="fa-regular fa-user"></i>
+                <a href="{{ asset ('/login') }}" class="primary-btn-login text-uppercase">Login</a>
+            </div>
 
           </div>
       </div>
