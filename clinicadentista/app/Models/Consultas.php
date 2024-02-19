@@ -26,7 +26,7 @@ use App\Models\Funcionario;
         return $this->belongsTo(Pacientes::class, 'idPaciente');
     }
 
-    public function dentista()
+    public function funcionario()
     {
         return $this->belongsTo(Funcionario::class, 'idFuncionario');
     }
