@@ -13,14 +13,14 @@ class HistoricoMedico extends Model
     protected $table = 'historico_medico';
 
     protected $fillable = [
-        'id_paciente',
-        'data_atendimento',
-        'procedimento_realizado',
-        'observacoes',
+        'idPaciente',
+        'dataAtendimento',
+        'procedimentoRealizado',
+        'observacoesHistoricoMedico',
     ];
 
     public function paciente()
     {
-        return $this->belongsTo(Pacientes::class, 'id_paciente');
+        return $this->belongsTo(Pacientes::class, 'idPaciente');
     }
 }
