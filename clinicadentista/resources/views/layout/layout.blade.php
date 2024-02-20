@@ -67,12 +67,12 @@
 
                 <li><a href="{{ url('/precos') }}">Preços</a></li>
                 <li><a href="{{ url('/elementos') }}">Elementos</a></li>
-                <li><a href="{{ ('/contato') }}">Contato</a></li>
+                <li><a href="{{ url ('/contato') }}">Contato</a></li>
               </ul>
             </nav><!-- #nav-menu-container -->
 
             <div class="header-btn-login">
-                <i class="fa-regular fa-user"></i>
+                <i class="fa fa-user"></i>
                 <a href="{{ asset ('/login') }}" class="primary-btn-login text-uppercase">Login</a>
             </div>
 

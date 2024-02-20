@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 
-    <title>Login - Academia Viva Bem</title>
+    <title>Login - Dental Care</title>
 
 </head>
 <body>

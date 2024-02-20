@@ -2267,12 +2267,22 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-right: 10px;
     border: 1px solid transparent;
     color: #fff;
-    transition: all ease-in .1s;
-    border-radius: 10px;
+    transition: all ease-in .2s;
+    border-radius: 5px;
+    padding: 0 10px;
 }
 
 .header-btn-login:hover {
-    color: red !important;
+    background-color: #0c838b;
+}
+
+.header-btn-login a:hover{
+    color: #fff;
+}
+
+
+.header-btn-login i{
+    font-size: 20px;
 }
 
 .primary-btn-login {

@@ -7,6 +7,8 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PrecosController;
 use App\Http\Controllers\ServicosController;
 use App\Http\Controllers\sobreController;
+use App\Models\Pacientes;
+use Faker\Guesser\Name;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -39,5 +41,25 @@ Route::post('/contato/enviarnew', [ContatoController::class, 'salvarEmail'])->na
 
 // LOGIN
 Route::get('/login', [LoginController::class, 'index'])->name('login');
+Route::post('/login', [LoginController::class, 'autenticar'])->name('login');
 
-// DASHBOARD
+
+// // DASHBOARD
+// Route::middleware(['autenticacao:paciente'])->group(function (){
+
+//     Route::get('/dashboard/pacientes', [::class, 'index'])->name('dashboard.pacientes');
+
+// });
+
+// Route::middleware(['autenticacao:admin'])->group(function (){
+
+//     Route::get('/dashboard/administrativo', [AdministrativoController::class, 'index'])->name('dashboard.administrativo');
+
+// });
+
+// Route::middleware(['autenticacao:instrutor'])->group(function (){
+
+//     Route::get('/dashboard/instrutor', [InstrutorController::class, 'index'])->name('dashboard.instrutor');
+
+// });
+
