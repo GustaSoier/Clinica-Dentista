@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Aluno;
 use App\Models\Funcionario;
+use App\Models\Pacientes;
 use App\Models\Usuario;
 use Illuminate\Http\Request;
 use Illuminate\Auth\Events\login;
@@ -58,18 +59,18 @@ class LoginController extends Controller
         ]);
         // dd($tipoUsuario);
 
-        if($tipoUsuario instanceof Funcionario) {
+        if($tipoUsuario instanceof Pacientes) {
             // $tipo = 'aluno';
 
             // dd($tipoUsuario);
                 // variável de sessão
                 session([
-                    'id'           =>  $tipoUsuario->id,
-                    'nome'         =>  $tipoUsuario->nomeFuncionario,
-                    'tipo_usuario' =>  'Aluno',
+                    'id'           =>  $tipoUsuario->idPaciente,
+                    'nome'         =>  $tipoUsuario->nomePaciente,
+                    'tipo_usuario' =>  'Paciente',
                 ]);
 
-                return redirect()->route('dashboard.alunos');
+                return redirect()->route('dashboard.paciente');
 
 
             }elseif($tipoUsuario instanceof Funcionario){
@@ -80,15 +81,15 @@ class LoginController extends Controller
                     // $tipo = 'admin';
 
                     session([
-                        'id'                =>  $tipoUsuario->id,
+                        'id'                =>  $tipoUsuario->idFuncionario,
                         'nome'              =>  $tipoUsuario->nomeFuncionario,
                         'tipoFuncionario'   =>  $tipoUsuario->tipo_funcionario,
                     ]);
 
                     return redirect()->route('dashboard.administrativo');
 
-                }elseif($tipoUsuario->tipo_funcionario == 'instrutor'){
-                    // $tipo = 'instrutor';
+                }elseif($tipoUsuario->tipo_funcionario == 'dentista'){
+                    // $tipo = 'dentista';
 
                     session([
                         'id'                =>  $tipoUsuario->id,

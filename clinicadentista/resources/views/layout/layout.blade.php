@@ -41,7 +41,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
-                      <a href="index.html"><img src="{{ asset ('img/logo-dentalcare.jpg') }}" alt="" title="" /></a>
+                      <a href="{{ url ('/') }}"><img src="{{ asset ('img/logo-dentalcare.jpg') }}" alt="" title="" /></a>
                     </div>
                     <div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
                       <a class="btns" href="tel:11 951694143">11 951694143</a>
@@ -66,7 +66,6 @@
                 <li><a href="{{ url('/horarioAtendimento') }}">Horário de Atendimento </a></li>
 
                 <li><a href="{{ url('/precos') }}">Preços</a></li>
-                <li><a href="{{ url('/elementos') }}">Elementos</a></li>
                 <li><a href="{{ url ('/contato') }}">Contato</a></li>
               </ul>
             </nav><!-- #nav-menu-container -->
@@ -109,28 +108,12 @@
                         <h3>dentalcare@gmail.com</h3>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="single-footer-widget newsletter">
-						<h6>Boletim Informativo</h6>
-						<p>Você pode confiar em nós. Nós apenas enviamos ofertas promocionais, nenhum spam.</p>
-						<div id="mc_embed_signup">
-							<form target="_blank" novalidate="true" action="{{ route ('contato.enviarnew') }}" method="POST" class="form-inline newsletter-form" id="newsLetter">
-								<div class="form-group row" style="width: 100%">
-									<div class="col-lg-8 col-md-12">
-										<input name="EMAIL" placeholder="Seu Endereço de Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Seu Endereço de Email'" required="" type="email">
-										<div style="position: absolute; left: -5000px;">
-											<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-										</div>
-									</div>
-									<div class="col-lg-4 col-md-12">
-										<button class="nw-btn primary-btn" onclick="newsLetter(event)">Inscreva<span class="lnr lnr-arrow-right"></span></button>
-									</div>
-								</div>
-								<div class="info"></div>
-							</form>
-						</div>
-					</div>
-				</div>
+
+
+                <div class="iframe-rodape">
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1708543859095!6m8!1m7!1so4hCE3WdfT9UhjYw_JQ6KA!2m2!1d-23.49526007439035!2d-46.43168714458266!3f211.28012953375514!4f24.383846072478747!5f0.5790141625933043" width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
 			</div>
 			<div class="row footer-bottom d-flex justify-content-between">
 				<p class="col-lg-8 col-sm-12 footer-text m-0"><!-- O link de volta ao Colorlib não pode ser removido. O modelo é licenciado sob CC BY 3.0. -->

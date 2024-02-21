@@ -60,6 +60,7 @@
             </div>
             <div class="col-lg-8">
                 <form class="form-area " id="formContato" action="{{ route('contato.enviar') }}" method="post" class="contact-form text-right">
+                    @csrf
                     <div class="row">
                         <div class="col-lg-6 form-group">
 
