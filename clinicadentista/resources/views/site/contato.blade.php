@@ -87,7 +87,7 @@
                         </div>
 
 
-                        <div class="col-lg-6 form-group">
+                        <div class="col-lg-6 form-group div-textArea-contato">
                             <textarea class="common-textarea form-control" name="mensContato" placeholder="Digite a mensagem" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite a mensagem'" required id="mensContato" value={{ old ('mensContato') }}></textarea>
                             <div id="mensContatoError" class="error-mensagem"></div>
                         </div>

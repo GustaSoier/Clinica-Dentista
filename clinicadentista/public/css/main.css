@@ -4033,3 +4033,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .btn-email input:hover{
     background-color: #1aa2ac;
 }
+
+.div-textArea-contato textarea{
+    resize: none;
+}
