@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Aluno;
-use App\Models\Funcionario;
+use App\Models\Funcionarios;
 use App\Models\Pacientes;
 use App\Models\Usuario;
 use Illuminate\Http\Request;
@@ -73,7 +73,7 @@ class LoginController extends Controller
                 return redirect()->route('dashboard.paciente');
 
 
-            }elseif($tipoUsuario instanceof Funcionario){
+            }elseif($tipoUsuario instanceof Funcionarios){
 
                 // dd($tipoUsuario);
 
