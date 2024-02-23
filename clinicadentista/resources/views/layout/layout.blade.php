@@ -72,7 +72,7 @@
 
             <div class="header-btn-login">
                 <i class="fa fa-user"></i>
-                <a href="{{ asset ('/login') }}" class="primary-btn-login text-uppercase">Login</a>
+                <a href="{{ url ('/login') }}" class="primary-btn-login text-uppercase">Login</a>
             </div>
 
           </div>
