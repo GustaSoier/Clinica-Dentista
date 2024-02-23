@@ -67,7 +67,7 @@ class LoginController extends Controller
                 session([
                     'id'           =>  $tipoUsuario->idPaciente,
                     'nome'         =>  $tipoUsuario->nomePaciente,
-                    'tipo_usuario' =>  'Paciente',
+                    'tipo_usuario' =>  'paciente',
                 ]);
 
                 return redirect()->route('dashboard.paciente');
@@ -97,7 +97,7 @@ class LoginController extends Controller
                         'tipoFuncionario'   =>  $tipoUsuario->tipo_funcionario,
                     ]);
 
-                    return redirect()->route('dashboard.instrutor');
+                    return redirect()->route('dashboard.dentista');
 
                 }
 
