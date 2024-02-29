@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\AdministrativoController;
 use App\Http\Controllers\ContatoController;
+use App\Http\Controllers\DentistaController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\HorarioAtendimentoController;
 use App\Http\Controllers\LoginController;
@@ -44,22 +46,26 @@ Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::post('/login', [LoginController::class, 'autenticar'])->name('login');
 
 
-// // DASHBOARD
-// Route::middleware(['autenticacao:paciente'])->group(function (){
+// DASHBOARD
+Route::middleware(['autenticacao:paciente'])->group(function (){
 
-//     Route::get('/dashboard/pacientes', [::class, 'index'])->name('dashboard.pacientes');
+    Route::get('/dashboard/pacientes', [Pacientes::class, 'index'])->name('dashboard.pacientes');
 
-// });
+});
 
-// Route::middleware(['autenticacao:admin'])->group(function (){
+Route::middleware(['autenticacao:admin'])->group(function (){
 
-//     Route::get('/dashboard/administrativo', [AdministrativoController::class, 'index'])->name('dashboard.administrativo');
+    Route::get('/dashboard/administrativo', [AdministrativoController::class, 'index'])->name('dashboard.administrativo');
 
-// });
+});
 
-// Route::middleware(['autenticacao:instrutor'])->group(function (){
+Route::middleware(['autenticacao:dentista'])->group(function (){
 
-//     Route::get('/dashboard/instrutor', [InstrutorController::class, 'index'])->name('dashboard.instrutor');
+    Route::get('/dashboard/dentista', [DentistaController::class, 'index'])->name('dashboard.dentista');
 
-// });
+});
 
+Route::get('/sair', function() {
+    session()->flush();
+    return redirect('/');
+})->name('sair');

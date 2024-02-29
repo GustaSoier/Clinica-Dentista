@@ -22,7 +22,7 @@ class Funcionarios extends Model
         'dataContrataçãoFuncionario',
         'cargoFuncionario',
         'salarioFuncionario',
-        'tipo_funcionario',
+        'tipoFuncionario',
         'statusFuncionario',
         'statusAluno'];
 

@@ -9,7 +9,7 @@ use App\Models\Pacientes;
 use Closure;
 use Illuminate\Http\Request;
 
-class AutAcademiaMiddle
+class AutClinicaMiddleware
 {
     /**
      * Handle an incoming request.
@@ -39,7 +39,7 @@ class AutAcademiaMiddle
                     $tipo = 'paciente';
                 }
                 elseif($tipoUsuario instanceof Funcionarios) {
-                    $tipo = $tipoUsuario -> tipo_funcionario;
+                    $tipo = $tipoUsuario -> tipoFuncionario;
                 }
             }
         }
