@@ -78,7 +78,7 @@ class LoginController extends Controller
                 'tipo_usuario' =>  'paciente',
             ]);
 
-            return redirect()->route('dashboard.paciente');
+            return redirect()->route('dashboard.pacientes');
 
         } elseif ($tipoUsuario instanceof Funcionarios) {
 
