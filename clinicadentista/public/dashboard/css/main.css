@@ -6706,3 +6706,41 @@ header.light-skin.hdr-bgclr2:before {
 .side-header.expand-header.light-skin nav h4 {color: #444;}
 tspan {font-weight: 400;}
 
+.dash-func{
+    display: flex;
+    flex-direction: column;
+}
+
+.dash-func h1{
+    color: red;
+    text-align: center;
+    color: #28CED9;
+}
+
+.dash-func div{
+    display: flex;
+    justify-content: end;
+    background-color: red;
+    align-self: flex-end;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #28CED9;
+}
+
+.dash-func div a{
+    color: white;
+}
+
+.dash-func td,th{
+    border: solid 1px #000 !important;
+}
+
+.logo-rodape-dash {
+    display: flex;
+    justify-content: end;
+}
+
+.logo-rodape-dash img{
+    height: 30px;
+}
