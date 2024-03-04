@@ -19,6 +19,6 @@ class Agenda extends Model
 
     public function funcionario()
     {
-        return $this->belongsTo(Funcionario::class, 'idFuncionario');
+        return $this->belongsTo(Funcionarios::class, 'id');
     }
 }
