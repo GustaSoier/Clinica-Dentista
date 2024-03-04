@@ -11,7 +11,7 @@ class Exames extends Model
     use HasFactory;
 
     protected $fillable = [
-        'idPaciente',
+        'id',
         'tipo',
         'data_realizacao',
         'resultado',
@@ -19,6 +19,6 @@ class Exames extends Model
 
     public function paciente()
     {
-        return $this->belongsTo(Pacientes::class, 'id_paciente');
+        return $this->belongsTo(Pacientes::class, 'id');
     }
 }
