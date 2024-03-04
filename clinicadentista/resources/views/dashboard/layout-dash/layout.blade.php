@@ -9,20 +9,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Vendor: Bootstrap 4 Stylesheets  -->
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset ('dashboard/css/jquery-ui.min.css') }}">
+    <link rel="stylesheet" href="{{ asset ('dashboard/css/bootstrap.min.css') }}" type="text/css">
 
     <!-- Our Website CSS Styles -->
-    <link rel="stylesheet" href="css/icons.min.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset ('dashboard/css/icons.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset ('dashboard/css/main.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset ('dashboard/css/responsive.css') }}" type="text/css">
 
     <!-- Color Scheme -->
-    <link rel="stylesheet" href="css/color-schemes/color.css" type="text/css" title="color3">
-    <link rel="alternate stylesheet" href="css/color-schemes/color1.css" title="color1">
-    <link rel="alternate stylesheet" href="css/color-schemes/color2.css" title="color2">
-    <link rel="alternate stylesheet" href="css/color-schemes/color4.css" title="color4">
-    <link rel="alternate stylesheet" href="css/color-schemes/color5.css" title="color5">
+    <link rel="stylesheet" href="{{ asset ('dashboard/css/color-schemes/color.css') }}" type="text/css" title="color3">
+    <link rel="alternate stylesheet" href="{{ asset ('dashboard/css/color-schemes/color1.css') }}" title="color1">
+    <link rel="alternate stylesheet" href="{{ asset ('dashboard/css/color-schemes/color2.css') }}" title="color2">
+    <link rel="alternate stylesheet" href="{{ asset ('dashboard/css/color-schemes/color4.css') }}" title="color4">
+    <link rel="alternate stylesheet" href="{{ asset ('dashboard/css/color-schemes/color5.css') }}" title="color5">
 </head>
 
 <body class="panel-data expand-data">
@@ -30,7 +30,7 @@
         <div class="logo">
             <h1>
                 <a href="#" title="">
-                    <img src="images/logo-dentalcare.jpg" alt="" />
+                    <img src="{{ asset ('dashboard/images/logo-dentalcare.jpg') }}" alt="" />
                 </a>
             </h1>
         </div>
@@ -38,28 +38,28 @@
             <div class="usr-act">
                 {{-- <i>Bem vindo, {{ $paciente -> nomePaciente }}</i> --}}
                 <span>
-                    <img src="images/resource/topbar-usr1.jpg" alt="" />
+                    <img src="{{ asset ('dashboard/images/resource/topbar-usr1.jpg') }}" alt="" />
                     <i class="sts away"></i>
                 </span>
                 <div class="usr-inf">
                     <div class="usr-thmb brd-rd50">
-                        <img class="brd-rd50" src="images/resource/usr.jpg" alt="" />
+                        <img class="brd-rd50" src="{{ asset ('dashboard/images/resource/usr.jpg') }}" alt="" />
                         <i class="sts away"></i>
                         <a class="green-bg brd-rd5" href="#" title="">
                             <i class="fa fa-envelope"></i>
                         </a>
                     </div>
-                    <h5>
-                        <a href="#" title="">John Smith</a>
+                    <h5>Soier
+                        {{-- <span {{ $paciente->nomePaciente }}</span> --}}
                     </h5>
-                    <span>Co Worker</span>
-                    <i>076 9477 4896</i>
-                    <div class="act-pst-lk-stm">
+                    <span>Administrativo</span>
+                    <i>11 99999-9999</i>
+                    {{-- <div class="act-pst-lk-stm">
                         <a class="brd-rd5 green-bg-hover" href="#" title="">
                             <i class="ion-heart"></i> Love</a>
                         <a class="brd-rd5 blue-bg-hover" href="#" title="">
                             <i class="ion-forward"></i> Reply</a>
-                    </div>
+                    </div> --}}
                     <div class="usr-ft">
                         <a class="btn-danger" href="{{ route('sair') }}" title="">
                             <i class="fa fa-sign-out"></i> Logout</a>
@@ -129,6 +129,15 @@
                     <li><a href=""><i class="ion-calendar"></i> Cronograma de Treino</a></li>
                     <li><a href=""><i class="ion-ios-body"></i> Atividades</a></li>
                     <li><a href=""><i class="ion-ios-body"></i> Serviços</a></li>
+                    <li><a href="{{ route('admin.func.index') }}"><i class="ion-ios-body"></i> Funcionários</a></li>
+                </ul>
+
+                @elseif(session('tipoFuncionario') == 'dentista')
+                <h4>Funcionário</h4>
+                <ul class="drp-sec">
+                    <li><a href="#"><i class="ion-podium"></i> Aluno</a></li>
+                    <li><a href="#"><i class="ion-calendar"></i> Treino</a></li>
+                    <li><a href="#"><i class="ion-calendar"></i> Cronograma de Treino</a></li>
                 </ul>
             @endif
         </nav>
@@ -144,39 +153,39 @@
             <p>Copyright
                 <a href="{{ route ('home') }}" title="">Dental Care</a> &amp; 2024 - 2025</p>
             <div class="logo-rodape-dash">
-                <img src="images/logo-dentalcare.jpg" alt="">
+                <img src="{{ asset ('dashboard/images/logo-dentalcare.jpg') }}" alt="">
             </div>
         </footer>
         <!-- Vendor: Javascripts -->
-        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/jquery.min.js') }}" type="text/javascript"></script>
         <!-- Vendor: Followed by our custom Javascripts -->
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/jquery-ui.min.js" type="text/javascript"></script>
-        <script src="js/select2.min.js" type="text/javascript"></script>
-        <script src="js/slick.min.js" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/bootstrap.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/jquery-ui.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/select2.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/slick.min.js') }}" type="text/javascript"></script>
 
         <!-- Our Website Javascripts -->
-        <script src="js/isotope.min.js" type="text/javascript"></script>
-        <script src="js/isotope-int.js" type="text/javascript"></script>
-        <script src="js/jquery.counterup.js" type="text/javascript"></script>
-        <script src="js/waypoints.min.js" type="text/javascript"></script>
-        <script src="js/highcharts.js" type="text/javascript"></script>
-        <script src="js/exporting.js" type="text/javascript"></script>
-        <script src="js/highcharts-more.js" type="text/javascript"></script>
-        <script src="js/moment.min.js" type="text/javascript"></script>
-        <script src="js/jquery.circliful.min.js" type="text/javascript"></script>
-        <script src="js/fullcalendar.min.js" type="text/javascript"></script>
-        <script src="js/jquery.downCount.js" type="text/javascript"></script>
-        <script src="js/jquery.bootstrap-touchspin.min.js" type="text/javascript"></script>
-        <script src="js/jquery.formtowizard.js" type="text/javascript"></script>
-        <script src="js/form-validator.min.js" type="text/javascript"></script>
-        <script src="js/form-validator-lang-en.min.js" type="text/javascript"></script>
-        <script src="js/cropbox-min.js" type="text/javascript"></script>
-        <script src="js/jquery.slimscroll.min.js" type="text/javascript"></script>
-        <script src="js/ion.rangeSlider.min.js" type="text/javascript"></script>
-        <script src="js/jquery.poptrox.min.js" type="text/javascript"></script>
-        <script src="js/styleswitcher.js" type="text/javascript"></script>
-        <script src="js/main.js" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/isotope.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/isotope-int.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/jquery.counterup.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/waypoints.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/highcharts.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/exporting.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/highcharts-more.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/moment.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/jquery.circliful.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/fullcalendar.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/jquery.downCount.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/jquery.bootstrap-touchspin.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/jquery.formtowizard.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/form-validator.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/form-validator-lang-en.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/cropbox-min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/jquery.slimscroll.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/ion.rangeSlider.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/jquery.poptrox.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/styleswitcher.js') }}" type="text/javascript"></script>
+        <script src="{{ asset ('dashboard/js/main.js') }}" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function () {
                 'use strict';
