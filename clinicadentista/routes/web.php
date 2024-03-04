@@ -12,6 +12,7 @@ use App\Http\Controllers\sobreController;
 use App\Models\Pacientes;
 use Faker\Guesser\Name;
 use Illuminate\Support\Facades\Route;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -57,6 +58,22 @@ Route::middleware(['autenticacao:admin'])->group(function (){
 
     Route::get('/dashboard/administrativo', [AdministrativoController::class, 'index'])->name('dashboard.administrativo');
 
+    // Rotas para o CRUD do Paciente
+    Route::get('/dashboard/administrativo/paciente', [AdministrativoController::class, 'indexPaciente'])->name('admin.pacientes.index'); //Lista todos os pacientes.
+    Route::get('/dashboard/administrativo/paciente/create', [AdministrativoController::class, 'createPaciente'])->name('admin.pacientes.create'); //Exibe o formulário de cadastro do paciente.
+    Route::post('/dashboard/administrativo/paciente', [AdministrativoController::class, 'cadPaciente'])->name('admin.pacientes.cad'); //Processa o formulário de cadastro do paciente.
+    Route::get('/dashboard/administrativo/paciente/{id}/edit', [AdministrativoController::class, 'editPaciente'])->name('admin.pacientes.edit'); //Exibe o formulário de edição do paciente.
+    Route::put('/dashboard/administrativo/paciente/{id}', [AdministrativoController::class, 'updatePaciente'])->name('admin.pacientes.update'); //Atualiza os dados do paciente.
+    Route::put('/dashboard/administrativo/pacientes`{id}/desativar', [AdministrativoController::class, 'desativarPaciente'])->name('admin.Pacientes.desativar'); //Desativa o paciente.
+
+
+    // Rotas para o CRUD de funcionario
+    Route::get('/dashboard/administrativo/funcionarios', [AdministrativoController::class, 'indexFunc'])->name('admin.func.index'); //Lista todos os funcionarios.
+    Route::get('/dashboard/administrativo/funcionarios/create', [AdministrativoController::class, 'createFuncionario'])->name('admin.func.create'); //exibe o formulario de cadastro de funcionario
+    Route::post('/dashboard/administrativo/funcionarios', [AdministrativoController::class, 'cadFuncionario'])->name('admin.func.cad'); //processa o formulário de cadastro de funcionario.
+    Route::get('/dashboard/administrativo/funcionarios/{id}/edit', [AdministrativoController::class, 'editFuncionario'])->name('admin.func.edit'); //Processa o formulario de edição de funcionario.
+    Route::put('/dashboard/administrativo/funcionarios/{id}', [AdministrativoController::class, 'updateFuncionario'])->name('admin.func.update'); //Atualiza os dados do funcionario.
+    Route::put('/dashboard/administrativo/funcionarios/{id}/desativar', [AdministrativoController::class, 'desativarFuncionario'])->name('admin.func.desativar'); //Desativar o funcionario.
 });
 
 Route::middleware(['autenticacao:dentista'])->group(function (){
