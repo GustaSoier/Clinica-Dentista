@@ -13,7 +13,7 @@ class HistoricoMedico extends Model
     protected $table = 'historico_medico';
 
     protected $fillable = [
-        'idPaciente',
+        'id',
         'dataAtendimento',
         'procedimentoRealizado',
         'observacoesHistoricoMedico',
@@ -21,6 +21,6 @@ class HistoricoMedico extends Model
 
     public function paciente()
     {
-        return $this->belongsTo(Pacientes::class, 'idPaciente');
+        return $this->belongsTo(Pacientes::class, 'id');
     }
 }
