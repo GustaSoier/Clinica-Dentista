@@ -118,7 +118,7 @@
 			</div>
 			<div class="row footer-bottom d-flex justify-content-between">
 				<p class="col-lg-8 col-sm-12 footer-text m-0"><!-- O link de volta ao Colorlib não pode ser removido. O modelo é licenciado sob CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Este modelo é feito por <a href="https://github.com/GustaSoier" target="_blank">Gustavo Sampaio Soier</a>
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Este modelo é feito por <a href="https://dreamdevs.smpsistema.com.br/" target="_blank">Dream Devs</a>
 	<!-- O link de volta ao Colorlib não pode ser removido. O modelo é licenciado sob CC BY 3.0. --></p>
 				<div class="col-lg-4 col-sm-12 footer-social">
 					<a href="#"><i class="fa fa-facebook"></i></a>
