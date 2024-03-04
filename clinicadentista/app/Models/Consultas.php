@@ -14,8 +14,8 @@ use App\Models\Funcionario;
     protected $table = 'consultas';
 
     protected $fillable = [
-        'idPaciente',
-        'idDentista',
+        'id',
+        'id',
         'dataConsulta',
         'observacoesConsulta',
     ];
@@ -28,7 +28,7 @@ use App\Models\Funcionario;
 
     public function funcionario()
     {
-        return $this->belongsTo(Funcionario::class, 'idFuncionario');
+        return $this->belongsTo(Funcionarios::class, 'idFuncionario');
     }
 }
 
