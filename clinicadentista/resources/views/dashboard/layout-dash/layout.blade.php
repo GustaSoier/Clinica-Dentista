@@ -49,10 +49,9 @@
                             <i class="fa fa-envelope"></i>
                         </a>
                     </div>
-                    <h5>Soier
+                    <h5>Administrador
                         {{-- <span {{ $paciente->nomePaciente }}</span> --}}
                     </h5>
-                    <span>Administrativo</span>
                     <i>11 99999-9999</i>
                     {{-- <div class="act-pst-lk-stm">
                         <a class="brd-rd5 green-bg-hover" href="#" title="">
@@ -99,19 +98,19 @@
                 <h4>Paciente</h4>
                 <ul class="drop-sec">
                     <li><a href="#"><i class="ion-person"></i></a> Perfil</li>
-                    <li><a href="#"><i class="ion-podium"></i></a> Treinos</li>
-                    <li><a href="#"><i class="ion-calendar"></i></a> Agendamentos</li>
-                    <li><a href="#"><i class="ion-ios-body"></i></a> Fit Coach</li>
+                    <li><a href="#"><i class="ion-podium"></i></a> Consultas</li>
+                    <li><a href="#"><i class="ion-calendar"></i></a> Exames</li>
+                    <li><a href="#"><i class="ion-ios-body"></i></a> Tratamento</li>
                     <li><a href="#"><i class="ion-star"></i></a> Minhas Conquistas</li>
                 </ul>
 
                 @elseif(session('tipoFuncionario') == 'admin' && session('cargo') == 'gerente')
                 <h4>Funcionário</h4>
                 <ul class="drp-sec">
-                    <li><a href="#"><i class="ion-podium"></i> Aluno</a></li>
-                    <li><a href="#"><i class="ion-calendar"></i> Treino</a></li>
-                    <li><a href="#"><i class="ion-calendar"></i> Cronograma de Treino</a></li>
-                    <li><a href="#"><i class="ion-ios-body"></i> Atividades</a></li>
+                    <li><a href="#"><i class="ion-podium"></i> Pacientes</a></li>
+                    <li><a href="#"><i class="ion-calendar"></i> Consultas</a></li>
+                    <li><a href="#"><i class="ion-calendar"></i> Exames</a></li>
+                    <li><a href="#"><i class="ion-ios-body"></i> Tratamento</a></li>
                     <li><a href="#"><i class="ion-ios-body"></i> Serviços</a></li>
                     <li><a href="#"><i class="ion-ios-body"></i> E-mail Site</a></li>
                 </ul>
@@ -124,10 +123,10 @@
                 @elseif(session('tipoFuncionario') == 'admin')
                 <h4>Funcionário</h4>
                 <ul class="drp-sec">
-                    <li><a href=""><i class="ion-podium"></i> Aluno</a></li>
-                    <li><a href=""><i class="ion-calendar"></i> Treino</a></li>
-                    <li><a href=""><i class="ion-calendar"></i> Cronograma de Treino</a></li>
-                    <li><a href=""><i class="ion-ios-body"></i> Atividades</a></li>
+                    <li><a href=""><i class="ion-podium"></i> Pacientes</a></li>
+                    <li><a href=""><i class="ion-calendar"></i> Consultas</a></li>
+                    <li><a href=""><i class="ion-calendar"></i> Exames</a></li>
+                    <li><a href=""><i class="ion-ios-body"></i> Tratamento</a></li>
                     <li><a href=""><i class="ion-ios-body"></i> Serviços</a></li>
                     <li><a href="{{ route('admin.func.index') }}"><i class="ion-ios-body"></i> Funcionários</a></li>
                 </ul>
@@ -135,9 +134,9 @@
                 @elseif(session('tipoFuncionario') == 'dentista')
                 <h4>Funcionário</h4>
                 <ul class="drp-sec">
-                    <li><a href="#"><i class="ion-podium"></i> Aluno</a></li>
-                    <li><a href="#"><i class="ion-calendar"></i> Treino</a></li>
-                    <li><a href="#"><i class="ion-calendar"></i> Cronograma de Treino</a></li>
+                    <li><a href="#"><i class="ion-podium"></i> Paciente</a></li>
+                    <li><a href="#"><i class="ion-calendar"></i> Consultas</a></li>
+                    <li><a href="#"><i class="ion-calendar"></i> Exames</a></li>
                 </ul>
             @endif
         </nav>
