@@ -28,7 +28,7 @@
                         <div class="menu-content pb-60 col-lg-8">
                             <div class="title text-center">
                                 <h1 class="mb-10">Escolha o melhor plano para você</h1>
-                                <p>Quem ama sistemas ecologicamente amigáveis.</p>
+                                <p>Conheça nossos planos odontológicos.</p>
                             </div>
                         </div>
                     </div>
@@ -36,57 +36,57 @@
                         <div class="col-lg-4">
                             <div class="single-price no-padding">
                                 <div class="price-top">
-                                    <h4>Básico Real</h4>
+                                    <h4>Plano Básico</h4>
                                 </div>
                                 <ul class="lists">
-                                    <li>2.5 GB de espaço</li>
-                                    <li>Transferência online segura</li>
-                                    <li>Estilos ilimitados</li>
-                                    <li>Serviço ao cliente</li>
+                                    <li>Limpeza profissional anual</li>
+                                    <li>Consultas de rotina</li>
+                                    <li>Raios-X diagnósticos</li>
+                                    <li>Descontos em procedimentos adicionais</li>
                                 </ul>
                                 <div class="price-bottom">
                                     <div class="price-wrap d-flex flex-row justify-content-center">
-                                        <span class="price">R$</span><h1> 39 </h1><span class="time">Por <br> Mês</span>
+                                        <span class="price">R$</span><h1> 59 </h1><span class="time">Por <br> Mês</span>
                                     </div>
-                                    <a href="#" class="primary-btn header-btn">Começar</a>
+                                    <a href="#" class="primary-btn header-btn">Contratar</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="single-price no-padding">
                                 <div class="price-top">
-                                    <h4>Padrão Real</h4>
+                                    <h4>Plano Padrão</h4>
                                 </div>
                                 <ul class="lists">
-                                    <li>10.0 GB de espaço</li>
-                                    <li>Transferência online segura</li>
-                                    <li>Estilos ilimitados</li>
-                                    <li>Serviço ao cliente</li>
+                                    <li>Limpeza profissional semestral</li>
+                                    <li>Consultas de rotina</li>
+                                    <li>Raios-X diagnósticos</li>
+                                    <li>Tratamentos de cáries</li>
                                 </ul>
                                 <div class="price-bottom">
                                     <div class="price-wrap d-flex flex-row justify-content-center">
-                                        <span class="price">R$</span><h1> 69 </h1><span class="time">Por <br> Mês</span>
+                                        <span class="price">R$</span><h1> 89 </h1><span class="time">Por <br> Mês</span>
                                     </div>
-                                    <a href="#" class="primary-btn header-btn">Começar</a>
+                                    <a href="#" class="primary-btn header-btn">Contratar</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="single-price no-padding">
                                 <div class="price-top">
-                                    <h4>Real Ultimate</h4>
+                                    <h4>Plano Premium</h4>
                                 </div>
                                 <ul class="lists">
-                                    <li>Espaço ilimitado</li>
-                                    <li>Transferência online segura</li>
-                                    <li>Estilos ilimitados</li>
-                                    <li>Serviço ao cliente</li>
+                                    <li>Limpeza profissional trimestral</li>
+                                    <li>Consultas de rotina</li>
+                                    <li>Tratamentos de canal</li>
+                                    <li>Clareamento dental anual</li>
                                 </ul>
                                 <div class="price-bottom">
                                     <div class="price-wrap d-flex flex-row justify-content-center">
-                                        <span class="price">R$</span><h1> 99 </h1><span class="time">Por <br> Mês</span>
+                                        <span class="price">R$</span><h1> 129 </h1><span class="time">Por <br> Mês</span>
                                     </div>
-                                    <a href="#" class="primary-btn header-btn">Começar</a>
+                                    <a href="#" class="primary-btn header-btn">Contratar</a>
                                 </div>
                             </div>
                         </div>
@@ -101,8 +101,8 @@
                     <div class="row d-flex justify-content-center">
                         <div class="menu-content pb-70 col-lg-8">
                             <div class="title text-center">
-                                <h1 class="mb-10">Nossos Consultores</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h1 class="mb-10">Nossos Doutores</h1>
+                                <p>Nossa equipe de profissionais altamente qualificados está comprometida em oferecer o melhor cuidado odontológico possível, dedicando-se a proporcionar sorrisos saudáveis e felizes a cada paciente que atendemos.</p>
                             </div>
                         </div>
                     </div>
@@ -112,9 +112,9 @@
                                 <img class="img-fluid" src="img/t1.jpg" alt="">
                                 <div class="align-items-end justify-content-center d-flex">
                                     <p>
-                                        Comportamento inadequado
+                                        Ortodontia - (UFRJ)
                                     </p>
-                                    <h4>Gustavo Sampaio Soier</h4>
+                                    <h4>Dr. Rodrigo Lima</h4>
                                 </div>
                             </div>
                         </div>
@@ -123,9 +123,9 @@
                                 <img class="img-fluid" src="img/t2.jpg" alt="">
                                 <div class="align-items-end justify-content-center d-flex">
                                     <p>
-                                        Comportamento inadequado
+                                        Implantodontia - (UFMG)
                                     </p>
-                                    <h4>Gustavo Sampaio Soier</h4>
+                                    <h4>Dra. Camila Martins</h4>
                                 </div>
                             </div>
                         </div>
@@ -134,9 +134,9 @@
                                 <img class="img-fluid" src="img/t3.jpg" alt="">
                                 <div class="align-items-end justify-content-center d-flex">
                                     <p>
-                                        Comportamento inadequado
+                                        Endodontia - (UNICAMP)
                                     </p>
-                                    <h4>Gustavo Sampaio Soier</h4>
+                                    <h4>Dr. Marcelo Silva</h4>
                                 </div>
                             </div>
                         </div>
@@ -145,9 +145,9 @@
                                 <img class="img-fluid" src="img/t4.jpg" alt="">
                                 <div class="align-items-end justify-content-center d-flex">
                                     <p>
-                                        Comportamento inadequado
+                                        Periodontia - (USP)
                                     </p>
-                                    <h4>Gustavo Sampaio Soier</h4>
+                                    <h4>Dra. Ana Torres</h4>
                                 </div>
                             </div>
                         </div>
@@ -163,7 +163,7 @@
                         <div class="menu-content pb-60 col-lg-8">
                             <div class="title text-center">
                                 <h1 class="mb-10">Recursos que nos tornam únicos</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+                                <p>Nossa clínica oferece uma variedade de recursos exclusivos que nos diferenciam no cuidado odontológico, proporcionando aos nossos pacientes experiências únicas e resultados excepcionais em cada visita.</p>
                             </div>
                         </div>
                     </div>
@@ -176,7 +176,7 @@
                                 <div class="details">
                                     <h4>Emergência 24/7</h4>
                                     <p>
-                                        O comportamento inadequado muitas vezes é ignorado como "coisa de menino", as mulheres enfrentam um comportamento mais elevado.
+                                        Estamos aqui para você a qualquer hora do dia ou da noite. Nossa equipe está pronta para lidar com emergências odontológicas, garantindo que você receba o cuidado necessário quando mais precisa, sem importar o momento.
                                     </p>
                                 </div>
                             </div>
@@ -187,9 +187,9 @@
                                     <span class="lnr lnr-heart-pulse"></span>
                                 </div>
                                 <div class="details">
-                                    <h4>Consultoria Especializada</h4>
+                                    <h4>Consulta Especializada</h4>
                                     <p>
-                                        O comportamento inadequado muitas vezes é ignorado como "coisa de menino", as mulheres enfrentam um comportamento mais elevado.
+                                        Oferecemos consultas especializadas para abordar suas necessidades odontológicas específicas. Nossa equipe está comprometida em proporcionar um ambiente acolhedor e profissional.
                                     </p>
                                 </div>
                             </div>
@@ -202,7 +202,7 @@
                                 <div class="details">
                                     <h4>Serviço de Raio-X</h4>
                                     <p>
-                                        O comportamento inadequado muitas vezes é ignorado como "coisa de menino", as mulheres enfrentam um comportamento mais elevado.
+                                        Nossa clínica oferece serviços de radiografia odontológica para auxiliar no diagnóstico preciso e no planejamento adequado do tratamento.
                                     </p>
                                 </div>
                             </div>
@@ -213,9 +213,9 @@
                                     <span class="lnr lnr-paw"></span>
                                 </div>
                                 <div class="details">
-                                    <h4>Ciência Odontológica</h4>
+                                    <h4>Ciência Dentária</h4>
                                     <p>
-                                        O comportamento inadequado muitas vezes é ignorado como "coisa de menino", as mulheres enfrentam um comportamento mais elevado.
+                                        Nossa abordagem baseia-se na mais recente ciência odontológica, utilizando técnicas e tecnologias avançadas para fornecer os melhores cuidados possíveis aos nossos pacientes.
                                     </p>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@
                                 <div class="details">
                                     <h4>Cuidados Intensivos</h4>
                                     <p>
-                                        O comportamento inadequado muitas vezes é ignorado como "coisa de menino", as mulheres enfrentam um comportamento mais elevado.
+                                        Na nossa clínica, oferecemos cuidados odontológicos intensivos para casos que requerem atenção especial e acompanhamento contínuo.
                                     </p>
                                 </div>
                             </div>
@@ -241,7 +241,7 @@
                                 <div class="details">
                                     <h4>Planejamento Familiar</h4>
                                     <p>
-                                        O comportamento inadequado muitas vezes é ignorado como "coisa de menino", as mulheres enfrentam um comportamento mais elevado.
+                                        Oferecemos serviços de planejamento familiar para garantir que toda a sua família receba o cuidado odontológico de que precisa.
                                     </p>
                                 </div>
                             </div>
