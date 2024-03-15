@@ -30,7 +30,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 // });
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/sobre', [sobreController::class, 'index'])->name('sobre');
+Route::get('/sobre', [SobreController::class, 'index'])->name('sobre');
 Route::get('/servicos', [ServicosController::class, 'index'])->name('servicos');
 Route::get('/horarioAtendimento', [HorarioAtendimentoController::class, 'index'])->name('horarioAtendimento');
 Route::get('/precos', [PrecosController::class, 'index'])->name('precos');
