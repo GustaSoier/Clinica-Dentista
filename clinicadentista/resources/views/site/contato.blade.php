@@ -112,8 +112,7 @@
                                 <div id="mensContatoError" class="error-mensagem"></div>
                             </div>
                             <div class="col-lg-12 btn-email">
-                                <input type="submit" value="Enviar via e-mail" class="btn-enviar"
-                                    onclick="formContato(event)">
+                                <input type="submit" value="Enviar via e-mail" class="btn-enviar">
                                 <div id="contatoMensagem" class="msgContato"></div>
                             </div>
                         </div>
