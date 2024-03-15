@@ -89,31 +89,28 @@
             <div class="row align-items-center justify-content-end">
                 <div class="col-lg-6 no-padding home-about-right">
                     <h1 class="text-white">
-                        Quem somos <br>
-                        para Servir a nação
+                        Quem Somos: Compromisso com sua Saúde Bucal
                     </h1>
                     <p>
-                        Comportamentos inadequados frequentemente são tolerados como "coisas de meninos", mulheres enfrentam
-                        padrões de conduta mais elevados, especialmente no local de trabalho. Por isso, é crucial que, como
-                        mulheres, nosso comportamento no trabalho esteja além de qualquer reprovação.
+                        Na nossa clínica, priorizamos a excelência no cuidado odontológico. Estamos aqui para oferecer tratamentos de qualidade, atendimento personalizado e resultados que transformam sorrisos e vidas.
                     </p>
                     <div class="row no-gutters">
                         <div class="single-services col">
                             <span class="lnr lnr-diamond"></span>
                             <a href="#">
-                                <h4 class="text-white">Serviços Especializados</h4>
+                                <h4 class="text-white">Nossos Tratamentos Especializados</h4>
                             </a>
                             <p>
-                                O uso da Internet está se tornando mais comum devido ao rápido avanço da tecnologia.
+                                Na nossa clínica, oferecemos uma ampla gama de tratamentos especializados para cuidar da sua saúde bucal.
                             </p>
                         </div>
                         <div class="single-services col">
                             <span class="lnr lnr-phone"></span>
                             <a href="#">
-                                <h4 class="text-white">Ótimo Suporte</h4>
+                                <h4 class="text-white">Atendimento de Qualidade</h4>
                             </a>
                             <p>
-                                O uso da Internet está se tornando mais comum devido ao rápido avanço da tecnologia.
+                                Na nossa clínica, estamos comprometidos em oferecer um atendimento de qualidade excepcional.
                             </p>
                         </div>
                     </div>
@@ -130,9 +127,8 @@
             <div class="row d-flex justify-content-center">
                 <div class="menu-content pb-60 col-lg-8">
                     <div class="title text-center">
-                        <h1 class="mb-10">Feedback dos nossos clientes reais</h1>
-                        <p>Não será um grande problema encontrar um amante de jogos de vídeo game em seu vizinho. Desde a
-                            introdução do Jogo Virtual.</p>
+                        <h1 class="mb-10">Feedback de nossos clientes reais</h1>
+                        <p>Nossos pacientes compartilham suas experiências reais conosco, destacando o compromisso da nossa equipe em proporcionar um cuidado odontológico excepcional e resultados que fazem a diferença em suas vidas.</p>
                     </div>
                 </div>
             </div>
@@ -141,100 +137,91 @@
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor,
-                            impressora, scanner, alto-falante, projetor, hardware e muito mais. acessório de laptop
+                            Excelente atendimento! A equipe da clínica foi extremamente profissional e atenciosa durante todo o processo. Recomendo muito!
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Maria Silva</h4>
                         <p>
-                            CEO na Google
+                            Gerente de Inovação em Tecnologia
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor,
-                            impressora, scanner, alto-falante, projetor, hardware e muito mais. acessório de laptop
+                            Fiquei muito satisfeita com o resultado do meu tratamento. O dentista foi muito cuidadoso e explicou tudo detalhadamente. Obrigada!
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Carla Fernandes</h4>
                         <p>
-                            CEO na Google
+                            Consultora de Sustentabilidade Ambiental
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor,
-                            impressora, scanner, alto-falante, projetor, hardware e muito mais. acessório de laptop
+                            Minha experiência na clínica foi ótima! O ambiente é acolhedor e os profissionais são muito competentes. Voltarei com certeza!
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Ana Santos</h4>
                         <p>
-                            CEO na Google
+                            Coordenadora de Eventos Culturais
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor,
-                            impressora, scanner, alto-falante, projetor, hardware e muito mais. acessório de laptop
+                            Estou muito feliz com o resultado do clareamento dental que fiz na clínica. Meu sorriso está mais brilhante do que nunca! Recomendo a todos!
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Luísa Pereira</h4>
                         <p>
-                            CEO na Google
+                            Analista de Mercado Financeiro
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor,
-                            impressora, scanner, alto-falante, projetor, hardware e muito mais. acessório de laptop
+                            O atendimento na clínica foi impecável. Desde a recepção até o tratamento, fui tratado com gentileza e profissionalismo. Parabéns à equipe!
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Sofia Carvalho</h4>
                         <p>
-                            CEO na Google
+                            Instrutora de Dança de Salão
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor,
-                            impressora, scanner, alto-falante, projetor, hardware e muito mais. acessório de laptop
+                            Fui muito bem atendido na clínica. O dentista foi muito paciente e cuidadoso durante todo o procedimento. Recomendo!
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Ana Julia</h4>
                         <p>
-                            CEO na Google
+                            Chef de Cozinha Internacional
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor,
-                            impressora, scanner, alto-falante, projetor, hardware e muito mais. acessório de laptop
+                            Gostaria de agradecer à equipe da clínica pelo excelente atendimento e pelo resultado incrível do meu tratamento ortodôntico.
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Gabriela Santana</h4>
                         <p>
-                            CEO na Google
+                            Desenvolvedor de Jogos Digitais
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor,
-                            impressora, scanner, alto-falante, projetor, hardware e muito mais. acessório de laptop
+                            Meu filho teve uma experiência muito positiva na clínica. O dentista pediátrico foi muito gentil e conseguiu deixá-lo à vontade durante o tratamento. Obrigado!
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Nicole Lima</h4>
                         <p>
-                            CEO na Google
+                            Consultora de Marketing Esportivo
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor,
-                            impressora, scanner, alto-falante, projetor, hardware e muito mais. acessório de laptop
+                            Fiz uma restauração na clínica e o resultado ficou perfeito! O dentista foi muito habilidoso e o procedimento foi rápido e sem dor. Recomendo a todos!
                         </p>
-                        <h4>Mark Alviro Wiens</h4>
+                        <h4>Rafaela Costa</h4>
                         <p>
-                            CEO na Google
+                            Curadora de Arte Contemporânea
                         </p>
                     </div>
                 </div>
