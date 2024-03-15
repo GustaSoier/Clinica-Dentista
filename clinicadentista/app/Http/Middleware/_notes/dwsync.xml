@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AutClinicaMiddleware.php" server="ftp.smpsistema.com.br/dentalcare/" local="133536151714555089" remote="133541468400000000" Dst="0" />
+<file name="Authenticate.php" server="ftp.smpsistema.com.br/dentalcare/" local="133196511090000000" remote="133541468400000000" Dst="0" />
+<file name="EncryptCookies.php" server="ftp.smpsistema.com.br/dentalcare/" local="133196511090000000" remote="133541468400000000" Dst="0" />
+<file name="LogAcessoClinica.php" server="ftp.smpsistema.com.br/dentalcare/" local="133539146810000000" remote="133541468400000000" Dst="0" />
+<file name="PreventRequestsDuringMaintenance.php" server="ftp.smpsistema.com.br/dentalcare/" local="133196511090000000" remote="133541468400000000" Dst="0" />
+<file name="RedirectIfAuthenticated.php" server="ftp.smpsistema.com.br/dentalcare/" local="133196511090000000" remote="133541468400000000" Dst="0" />
+<file name="TrimStrings.php" server="ftp.smpsistema.com.br/dentalcare/" local="133196511090000000" remote="133541468400000000" Dst="0" />
+<file name="TrustHosts.php" server="ftp.smpsistema.com.br/dentalcare/" local="133196511090000000" remote="133541468400000000" Dst="0" />
+<file name="TrustProxies.php" server="ftp.smpsistema.com.br/dentalcare/" local="133196511090000000" remote="133541468400000000" Dst="0" />
+<file name="ValidateSignature.php" server="ftp.smpsistema.com.br/dentalcare/" local="133196511090000000" remote="133541468400000000" Dst="0" />
+<file name="VerifyCsrfToken.php" server="ftp.smpsistema.com.br/dentalcare/" local="133196511090000000" remote="133541468400000000" Dst="0" />
+</dwsync>
