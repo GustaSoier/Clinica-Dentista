@@ -28,7 +28,7 @@ class ContatoController extends Controller
         ]);
 
         if ($validarDados->fails()) {
-            return response()->json(['errors' => $validarDados->errors()], 422);
+            return back()->withErrors($validarDados)->withInput();
         }
         else {
 
@@ -37,7 +37,7 @@ class ContatoController extends Controller
             // Por email
             Mail::to('dreamdevs@smpsistema.com.br')->send(new ContatoEmail($contato));
 
-            return response()->json(['success' => 'Email registrado com sucesso']);
+            return back()->with('success', 'Email registrado com sucesso');
         }
 
     }
