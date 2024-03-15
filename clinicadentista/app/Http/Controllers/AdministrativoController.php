@@ -45,7 +45,7 @@ class AdministrativoController extends Controller
     }
 
 
-    public function cadFunc(Request $request)
+    public function cadFuncionario(Request $request)
     {
         $request->merge(['contratacaoFuncionario' => now()]);
 
@@ -60,8 +60,16 @@ class AdministrativoController extends Controller
             'dataContratacaoFuncionario'     => 'date',
             'cargoFuncionario'     => 'required|string|max:100',
             'salarioFuncionario'     => 'required|numeric|regex:/^\d+(\.\d{1,2})?$/',
-            'tipoFuncionario' => ['required', Funcionarios::in(['admin', 'dentista'])],
-            'statusFuncionario'     => ['required', Funcionarios::in(['ativo', 'inativo'])],
+            'tipoFuncionario' => ['required', function ($attribute, $value, $fail) {
+                if (!in_array($value, ['admin', 'dentista'])) {
+                    $fail($attribute.' is invalid.');
+                }
+            }],
+            'statusFuncionario' => ['required', function ($attribute, $value, $fail) {
+                if (!in_array($value, ['ativo', 'inativo'])) {
+                    $fail($attribute.' é inválido.');
+                }
+            }],
         ]);
 
         // Obter o último funcionário ou definir o ID inicial como 0
@@ -97,7 +105,7 @@ class AdministrativoController extends Controller
 
 
 
-    public function editFunc($id)
+    public function editFuncionario($id)
     {
 
         $idFunc = session('id');
@@ -109,7 +117,7 @@ class AdministrativoController extends Controller
     }
 
 
-    public function updateFunc(Request $request, $id)
+    public function updateFuncionario(Request $request, $id)
     {
 
         $request->merge(['contratacaoFuncionario' => now()]);
@@ -136,7 +144,7 @@ class AdministrativoController extends Controller
     }
 
 
-    public function desativarFunc($id)
+    public function desativarFuncionario($id)
     {
         $func = Funcionarios::findOrFail($id);
         $func->update(['statusFuncionario' => 'inativo']);
