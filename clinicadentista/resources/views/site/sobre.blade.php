@@ -28,7 +28,7 @@
                 <div class="menu-content pb-60 col-lg-8">
                     <div class="title text-center">
                         <h1 class="mb-10">Recursos que nos tornam únicos</h1>
-                        <p>Quem está extremamente apaixonado pelo sistema ecológico.</p>
+                        <p>Nossa clínica oferece uma variedade de recursos exclusivos que nos diferenciam no cuidado odontológico, proporcionando aos nossos pacientes experiências únicas e resultados excepcionais em cada visita.</p>
                     </div>
                 </div>
             </div>
@@ -41,8 +41,7 @@
                         <div class="details">
                             <h4>Emergência 24/7</h4>
                             <p>
-                                O comportamento inadequado muitas vezes é ignorado como "meninos serão meninos", mas as
-                                mulheres enfrentam padrões de conduta mais elevados.
+                                Estamos aqui para você a qualquer hora do dia ou da noite. Nossa equipe está pronta para lidar com emergências odontológicas, garantindo que você receba o cuidado necessário quando mais precisa, sem importar o momento.
                             </p>
                         </div>
                     </div>
@@ -55,8 +54,7 @@
                         <div class="details">
                             <h4>Consulta Especializada</h4>
                             <p>
-                                O comportamento inadequado muitas vezes é ignorado como "meninos serão meninos", mas as
-                                mulheres enfrentam padrões de conduta mais elevados.
+                                Oferecemos consultas especializadas para abordar suas necessidades odontológicas específicas. Nossa equipe está comprometida em proporcionar um ambiente acolhedor e profissional.
                             </p>
                         </div>
                     </div>
@@ -69,8 +67,7 @@
                         <div class="details">
                             <h4>Serviço de Raio-X</h4>
                             <p>
-                                O comportamento inadequado muitas vezes é ignorado como "meninos serão meninos", mas as
-                                mulheres enfrentam padrões de conduta mais elevados.
+                                Nossa clínica oferece serviços de radiografia odontológica para auxiliar no diagnóstico preciso e no planejamento adequado do tratamento.
                             </p>
                         </div>
                     </div>
@@ -81,10 +78,9 @@
                             <span class="lnr lnr-paw"></span>
                         </div>
                         <div class="details">
-                            <h4>Ciência Dental</h4>
+                            <h4>Ciência Dentária</h4>
                             <p>
-                                O comportamento inadequado muitas vezes é ignorado como "meninos serão meninos", mas as
-                                mulheres enfrentam padrões de conduta mais elevados.
+                                Nossa abordagem baseia-se na mais recente ciência odontológica, utilizando técnicas e tecnologias avançadas para fornecer os melhores cuidados possíveis aos nossos pacientes.
                             </p>
                         </div>
                     </div>
@@ -97,8 +93,7 @@
                         <div class="details">
                             <h4>Cuidados Intensivos</h4>
                             <p>
-                                O comportamento inadequado muitas vezes é ignorado como "meninos serão meninos", mas as
-                                mulheres enfrentam padrões de conduta mais elevados.
+                                Na nossa clínica, oferecemos cuidados odontológicos intensivos para casos que requerem atenção especial e acompanhamento contínuo.
                             </p>
                         </div>
                     </div>
@@ -111,8 +106,7 @@
                         <div class="details">
                             <h4>Planejamento Familiar</h4>
                             <p>
-                                O comportamento inadequado muitas vezes é ignorado como "meninos serão meninos", mas as
-                                mulheres enfrentam padrões de conduta mais elevados.
+                                Oferecemos serviços de planejamento familiar para garantir que toda a sua família receba o cuidado odontológico de que precisa.
                             </p>
                         </div>
                     </div>
@@ -128,31 +122,28 @@
             <div class="row align-items-center justify-content-end">
                 <div class="col-lg-6 no-padding home-about-right">
                     <h1 class="text-white">
-                        Quem somos <br>
-                        para Servir a nação
+                        Quem Somos: Compromisso com sua Saúde Bucal
                     </h1>
                     <p>
-                        Comportamentos inadequados muitas vezes são tratados com risadas, como "meninos serão meninos", mas
-                        as mulheres enfrentam padrões de conduta mais elevados, especialmente no ambiente de trabalho. Por
-                        isso, é crucial que, como mulheres, nosso comportamento no trabalho seja irrepreensível.
+                        Na nossa clínica, priorizamos a excelência no cuidado odontológico. Estamos aqui para oferecer tratamentos de qualidade, atendimento personalizado e resultados que transformam sorrisos e vidas.
                     </p>
                     <div class="row no-gutters">
                         <div class="single-services col">
                             <span class="lnr lnr-diamond"></span>
                             <a href="#">
-                                <h4 class="text-white">Serviços Especializados</h4>
+                                <h4 class="text-white">Nossos Tratamentos Especializados</h4>
                             </a>
                             <p>
-                                O uso da Internet está se tornando mais comum devido ao rápido avanço da tecnologia.
+                                Na nossa clínica, oferecemos uma ampla gama de tratamentos especializados para cuidar da sua saúde bucal.
                             </p>
                         </div>
                         <div class="single-services col">
                             <span class="lnr lnr-phone"></span>
                             <a href="#">
-                                <h4 class="text-white">Suporte Excelente</h4>
+                                <h4 class="text-white">Atendimento de Qualidade</h4>
                             </a>
                             <p>
-                                O uso da Internet está se tornando mais comum devido ao rápido avanço da tecnologia.
+                                Na nossa clínica, estamos comprometidos em oferecer um atendimento de qualidade excepcional.
                             </p>
                         </div>
                     </div>
@@ -168,8 +159,8 @@
             <div class="row d-flex justify-content-center">
                 <div class="menu-content pb-70 col-lg-8">
                     <div class="title text-center">
-                        <h1 class="mb-10">Nossos Consultores</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h1 class="mb-10">Nossos Doutores</h1>
+                        <p>Nossa equipe de profissionais altamente qualificados está comprometida em oferecer o melhor cuidado odontológico possível, dedicando-se a proporcionar sorrisos saudáveis e felizes a cada paciente que atendemos.</p>
                     </div>
                 </div>
             </div>
@@ -179,9 +170,9 @@
                         <img class="img-fluid" src="img/t1.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                Comportamento inadequado
+                                Ortodontia - (UFRJ)
                             </p>
-                            <h4>Gustavo Sampaio Soier</h4>
+                            <h4>Dr. Rodrigo Lima</h4>
                         </div>
                     </div>
                 </div>
@@ -190,9 +181,9 @@
                         <img class="img-fluid" src="img/t2.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                Comportamento inadequado
+                                Implantodontia - (UFMG)
                             </p>
-                            <h4>Gustavo Sampaio Soier</h4>
+                            <h4>Dra. Camila Martins</h4>
                         </div>
                     </div>
                 </div>
@@ -201,9 +192,9 @@
                         <img class="img-fluid" src="img/t3.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                Comportamento inadequado
+                                Endodontia - (UNICAMP)
                             </p>
-                            <h4>Gustavo Sampaio Soier</h4>
+                            <h4>Dr. Marcelo Silva</h4>
                         </div>
                     </div>
                 </div>
@@ -212,9 +203,9 @@
                         <img class="img-fluid" src="img/t4.jpg" alt="">
                         <div class="align-items-end justify-content-center d-flex">
                             <p>
-                                Comportamento inadequado
+                                Periodontia - (USP)
                             </p>
-                            <h4>Gustavo Sampaio Soier</h4>
+                            <h4>Dra. Ana Torres</h4>
                         </div>
                     </div>
                 </div>
@@ -223,59 +214,6 @@
     </section>
     <!-- End team Area -->
 
-    <!-- Start appoinment Area -->
-    <section class="appoinment-area section-gap relative">
-        <div class="container">
-            <div class="row align-items-center justify-content-end">
-                <div class="col-lg-6 no-padding appoinment-right">
-                    <h1 class="text-white">
-                        Agende um <br>
-                        Compromisso
-                    </h1>
-                    <form class="appoinment-form" id="myForm" action="#">
-                        <div class="row">
-                            <div class="col-lg-12 d-flex flex-column">
-                                <input name="patient-name" placeholder="Nome do Paciente" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Nome do Paciente'" class="form-control mt-20" required=""
-                                    type="text">
-                            </div>
-                            <div class="col-lg-6 d-flex flex-column">
-                                <input name="phone" placeholder="Telefone" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Telefone'" class="form-control mt-20" required=""
-                                    type="text">
-                            </div>
-                            <div class="col-lg-6 d-flex flex-column">
-                                <input name="email" placeholder="Endereço de E-mail" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Endereço de E-mail'" class="form-control mt-20" required=""
-                                    type="email">
-                            </div>
-                            <div class="col-lg-6 d-flex flex-column">
-                                <input name="dob" placeholder="Data de Nascimento" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Data de Nascimento'" class="form-control mt-20" required=""
-                                    type="text" id="datepicker">
-                            </div>
-                            <div class="col-lg-6 d-flex flex-column">
-                                <input name="appoinment-date" placeholder="Data do Compromisso"
-                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Data do Compromisso'"
-                                    class="form-control mt-20" required="" type="text" id="datepicker2">
-                            </div>
-                            <div class="col-lg-12 flex-column">
-                                <textarea rows="5" class="form-control mt-20" name="message" placeholder="Mensagem"
-                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensagem'" required=""></textarea>
-                            </div>
-
-                            <div class="col-lg-12 d-flex justify-content-end send-btn">
-                                <button class="genric-btn primary mt-20 text-uppercase ">Confirmar agendamento</button>
-                            </div>
-
-                            <div class="alert-msg"></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End appoinment Area -->
 
     <!-- Start testomial Area -->
     <section class="testomial-area section-gap">
@@ -284,8 +222,7 @@
                 <div class="menu-content pb-60 col-lg-8">
                     <div class="title text-center">
                         <h1 class="mb-10">Feedback de nossos clientes reais</h1>
-                        <p>Não será um grande problema encontrar um amante de videogame em seu bairro. Desde a
-                            introdução do Jogo Virtual.</p>
+                        <p>Nossos pacientes compartilham suas experiências reais conosco, destacando o compromisso da nossa equipe em proporcionar um cuidado odontológico excepcional e resultados que fazem a diferença em suas vidas.</p>
                     </div>
                 </div>
             </div>
@@ -294,100 +231,91 @@
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
-                            scanner, alto-falante, projetor, hardware e mais. Acessório para laptop
+                            Excelente atendimento! A equipe da clínica foi extremamente profissional e atenciosa durante todo o processo. Recomendo muito!
                         </p>
-                        <h4>Gustavo Sampaio Soier</h4>
+                        <h4>Maria Silva</h4>
                         <p>
-                            CEO do Google
+                            Gerente de Inovação em Tecnologia
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
-                            scanner, alto-falante, projetor, hardware e mais. Acessório para laptop
+                            Fiquei muito satisfeita com o resultado do meu tratamento. O dentista foi muito cuidadoso e explicou tudo detalhadamente. Obrigada!
                         </p>
-                        <h4>Gustavo Sampaio Soier</h4>
+                        <h4>Carla Fernandes</h4>
                         <p>
-                            CEO do Google
+                            Consultora de Sustentabilidade Ambiental
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
-                            scanner, alto-falante, projetor, hardware e mais. Acessório para laptop
+                            Minha experiência na clínica foi ótima! O ambiente é acolhedor e os profissionais são muito competentes. Voltarei com certeza!
                         </p>
-                        <h4>Gustavo Sampaio Soier</h4>
+                        <h4>Ana Santos</h4>
                         <p>
-                            CEO do Google
+                            Coordenadora de Eventos Culturais
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
-                            scanner, alto-falante, projetor, hardware e mais. Acessório para laptop
+                            Estou muito feliz com o resultado do clareamento dental que fiz na clínica. Meu sorriso está mais brilhante do que nunca! Recomendo a todos!
                         </p>
-                        <h4>Gustavo Sampaio Soier</h4>
+                        <h4>Luísa Pereira</h4>
                         <p>
-                            CEO do Google
+                            Analista de Mercado Financeiro
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
-                            scanner, alto-falante, projetor, hardware e mais. Acessório para laptop
+                            O atendimento na clínica foi impecável. Desde a recepção até o tratamento, fui tratado com gentileza e profissionalismo. Parabéns à equipe!
                         </p>
-                        <h4>Gustavo Sampaio Soier</h4>
+                        <h4>Sofia Carvalho</h4>
                         <p>
-                            CEO do Google
+                            Instrutora de Dança de Salão
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
-                            scanner, alto-falante, projetor, hardware e mais. Acessório para laptop
+                            Fui muito bem atendido na clínica. O dentista foi muito paciente e cuidadoso durante todo o procedimento. Recomendo!
                         </p>
-                        <h4>Gustavo Sampaio Soier</h4>
+                        <h4>Ana Julia</h4>
                         <p>
-                            CEO do Google
+                            Chef de Cozinha Internacional
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t1.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
-                            scanner, alto-falante, projetor, hardware e mais. Acessório para laptop
+                            Gostaria de agradecer à equipe da clínica pelo excelente atendimento e pelo resultado incrível do meu tratamento ortodôntico.
                         </p>
-                        <h4>Gustavo Sampaio Soier</h4>
+                        <h4>Gabriela Santana</h4>
                         <p>
-                            CEO do Google
+                            Desenvolvedor de Jogos Digitais
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t2.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
-                            scanner, alto-falante, projetor, hardware e mais. Acessório para laptop
+                            Meu filho teve uma experiência muito positiva na clínica. O dentista pediátrico foi muito gentil e conseguiu deixá-lo à vontade durante o tratamento. Obrigado!
                         </p>
-                        <h4>Gustavo Sampaio Soier</h4>
+                        <h4>Nicole Lima</h4>
                         <p>
-                            CEO do Google
+                            Consultora de Marketing Esportivo
                         </p>
                     </div>
                     <div class="single-testimonial item">
                         <img class="mx-auto" src="img/t3.png" alt="">
                         <p class="desc">
-                            Acessórios Aqui você pode encontrar o melhor acessório de computador para o seu laptop, monitor, impressora,
-                            scanner, alto-falante, projetor, hardware e mais. Acessório para laptop
+                            Fiz uma restauração na clínica e o resultado ficou perfeito! O dentista foi muito habilidoso e o procedimento foi rápido e sem dor. Recomendo a todos!
                         </p>
-                        <h4>Gustavo Sampaio Soier</h4>
+                        <h4>Rafaela Costa</h4>
                         <p>
-                            CEO do Google
+                            Curadora de Arte Contemporânea
                         </p>
                     </div>
                 </div>
